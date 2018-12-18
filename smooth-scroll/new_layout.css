@@ -1,8 +1,12 @@
 /* This is far enough back   */
 
+html {
+    scroll-behavior: smooth;
+  }
 
 body, html {
     height: 100%;
+   
 }
 
 body {
