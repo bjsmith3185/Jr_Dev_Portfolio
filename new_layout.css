@@ -12,6 +12,13 @@ body {
     height: 100%; 
 }
 
+/* aside  */
+
+
+
+
+
+
 .parallax {
     /* The image used */
     background-image: url('assets/images/keyboard.jpg');
@@ -24,7 +31,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* opacity: 0.5; */
+    opacity: 0.5;
 }
 
 
@@ -152,11 +159,13 @@ body {
     height: 300px;
   } */
 
+  
+
 
   .text {
     background-color: white;
-    /* background: rgb(219, 217, 217); */
-    color: black;
+
+    /* color: black; */
     font-size: 10vw; 
     font-weight: bold;
     margin: 0 auto;
@@ -251,7 +260,7 @@ body {
           width: 100%;
           height: 300px;
           /* border: 2px solid black; */
-          margin-top: 45px;
+          margin-top: 250px;
           padding: 25px;
       }
 

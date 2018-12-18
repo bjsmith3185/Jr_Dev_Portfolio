@@ -1,0 +1,18 @@
+
+add these boxes to the landing page
+    - github/ linkedin / gmail
+
+
+add a skills page with icons
+    - node
+    - exprss
+    - react
+    - javascript
+    - jquery
+
+
+projects
+    - AD-On
+    - truck sniffer
+    - .....
+
