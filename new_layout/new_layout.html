@@ -1,0 +1,348 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>parallax dropdown</title>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel='stylesheet' href='new_layout.css'>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="dropdown">
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+
+
+            <div class="dropdown-content">
+                <div><a href="#home">Home</a></div>
+                <div><a href="#projects">Projects</a></div>
+                <div><a href="#education">Education</a></div>
+                <div><a href="#contact">Contact</a></div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="background-picture">
+
+        <div class="text">BJ SMITH</div>
+
+
+        <div class="parallax" id="home"></div>
+
+        <div class="scrolling-div" id="projects">
+
+            <!-- This one scrolls over the image -->
+            <div class="row" id="projects-area">
+                <div class="col-lg-4 text-center">
+                    <div class="project-container text-center" data-summary="summary-1" data-info="info-1">
+
+                        <div class="project-inside-container project-summary text-center" id="summary-1">
+                            <div class="project-title text-center">RealTime Shopping List</div>
+                            <div class="project-body text-center">Check List that uses a realtime database.</div>
+                            <div class="project-footer">Details</div>
+                        </div>
+
+                        <div class="project-inside-container project-info" id="info-1">
+                            <div class="info-title text-center">RealTime Shopping List</div>
+                            <div class="info-link-div"><a href="https://bjsmith3185.github.io/shopping-list/" class="info-link">https://bjsmith3185.github.io/shopping-list/</a></div>
+                            <div class="info-techonolgies">HTML, CSS, Javascript, Jquery, Firebase</div>
+                            <div class="info-details text-center">Details</div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 text-center">
+                    <div class="project-container text-center" data-summary="summary-2" data-info="info-2">
+
+                        <div class="project-inside-container project-summary text-center" id="summary-2">
+                            <div class="project-title text-center">Exam (timed/random)</div>
+                            <div class="project-body text-center">User can select: timed or random questions.</div>
+                            <div class="project-footer">Details</div>
+                        </div>
+
+                        <div class="project-inside-container project-info" id="info-2">
+                            <div class="info-title text-center">Exam (timed/random)</div>
+                            <div class="info-link-div"><a href="https://bjsmith3185.github.io/10code/" class="info-link">https://bjsmith3185.github.io/10code/</a></div>
+                            <div class="info-techonolgies">HTML, CSS, Javascript, Jquery</div>
+                            <div class="info-details text-center">Details</div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 text-center">
+                    <div class="project-container text-center" data-summary="summary-3" data-info="info-3">
+
+                        <div class="project-inside-container project-summary text-center" id="summary-3">
+                            <div class="project-title text-center">Stock Ticker</div>
+                            <div class="project-body text-center">Show stock prices using API.</div>
+                            <div class="project-footer">Details</div>
+                        </div>
+
+                        <div class="project-inside-container project-info" id="info-3">
+                            <div class="info-title text-center">Stock Ticker</div>
+                            <div class="info-link-div"><a href="https://bjsmith3185.github.io/stock_ticker/" class="info-link">https://bjsmith3185.github.io/stock_ticker/</a></div>
+                            <div class="info-techonolgies">HTML, CSS, Javascript, Jquery, AJAX/JSON</div>
+                            <div class="info-details text-center">Details</div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="line-break"></div>
+
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <div class="project-container text-center" data-summary="summary-4" data-info="info-4">
+
+                        <div class="project-inside-container project-summary text-center" id="summary-4">
+                            <div class="project-title text-center">Day Care Sign-in</div>
+                            <div class="project-body text-center">Collects and displays information using firebase.</div>
+                            <div class="project-footer">Details</div>
+                        </div>
+
+                        <div class="project-inside-container project-info" id="info-4">
+                            <div class="info-title text-center">Day Care Sign-in</div>
+                            <div class="info-link-div"><a href="https://bjsmith3185.github.io/Day_care_sign_in/" class="info-link">https://bjsmith3185.github.io/Day_care_sign_in/</a></div>
+                            <div class="info-techonolgies">HTML, CSS, Javascript, Jquery, Firebase</div>
+                            <div class="info-details text-center">Details</div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 text-center">
+                    <div class="project-container text-center" data-summary="summary-5" data-info="info-5">
+
+                        <div class="project-inside-container project-summary text-center" id="summary-5">
+                            <div class="project-title text-center">Project Name</div>
+                            <div class="project-body text-center">Project summary</div>
+                            <div class="project-footer">Details</div>
+                        </div>
+
+                        <div class="project-inside-container project-info" id="info-5">
+                            <div class="info-title text-center">Project Name</div>
+                            <div class="info-link-div"><a href="#" class="info-link">GitHub Link</a></div>
+                            <div class="info-techonolgies">HTML, CSS, Javascript</div>
+                            <div class="info-details text-center">Details</div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-4 text-center">
+                    <div class="project-container text-center" data-summary="summary-6" data-info="info-6">
+
+                        <div class="project-inside-container project-summary text-center" id="summary-6">
+                            <div class="project-title text-center">Project Name</div>
+                            <div class="project-body text-center">Project summary</div>
+                            <div class="project-footer">Details</div>
+                        </div>
+
+                        <div class="project-inside-container project-info" id="info-6">
+                            <div class="info-title text-center">Project Name</div>
+                            <div class="info-link-div"><a href="#" class="info-link">GitHub Link</a></div>
+                            <div class="info-techonolgies">HTML, CSS, Javascript</div>
+                            <div class="info-details text-center">Details</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="parallax-2"></div>
+
+        <div class="scrolling-div-2" id="education">
+            <!-- Another one scrolls over the image -->
+            <!-- use this div for education info  -->
+            <div class="education-area ">
+                <div class="education-title text-center">
+                    Education
+                </div>
+
+                <div class="education-wrapper">
+                    <div class="education education-1 college">
+                        Stanly Community College, Albemarle NC
+                    </div>
+                    <div class="education education-1 degree">
+                        Associate in Applied Science, Drafting & Design Engineering
+                    </div>
+                    <div class="education education-1 date">
+                        Graduation Year: 1995
+                    </div>
+                </div>
+
+                <div class="education-wrapper">
+                    <div class="education education-2 college">
+                        UNC Charlotte, Charlotte NC
+                    </div>
+                    <div class="education education-2 degree">
+                        Bachelor of Science, Manufacturing Engineering
+                    </div>
+                    <div class="education education-2 date">
+                        Graduation Year: 1998
+                    </div>
+                </div>
+
+                <div class="education-wrapper">
+                    <div class="education education-3 college">
+                        Pfeiffer University, Charlotte NC
+                    </div>
+                    <div class="education education-3 degree">
+                        Master in Business Administration
+                    </div>
+                    <div class="education education-3 date">
+                        Graduation Year: 2005
+                    </div>
+                </div>
+
+                <div class="education-wrapper">
+                    <div class="education education-4 college">
+                        UNC Charlotte, Charlotte NC
+                    </div>
+                    <div class="education education-4 degree">
+                        Certification, Full Stack Development
+                    </div>
+                    <div class="education education-4 date">
+                        Graduation Year: 2018
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <div class="parallax-3"></div>
+
+        <div class="scrolling-div-3" id="contact">
+            <!-- use this one for contact -->
+            <div class="contact-title text-center">
+                Contact Me
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-input-area">
+
+                    <form class="contact-form">
+
+                        <label class="label"><div class="form-left">Your Name:</div>
+                            <input class="input" type="text" id="name" size="30">
+                        </label>
+
+
+                        <label class="label"><div class="form-left">Your Email:</div>
+                            <input class="input" type="text" id="email" size="30">
+                        </label>
+
+
+                        <label class="label"><div class="form-left">Company:</div>
+                            <input class="input" type="text" id="company" size="30">
+                        </label>
+                        <br>
+
+                        <div class="left-message text-center">
+                                <label class="label"><div class="form-left">Message:</div>
+                                   
+                                </label>
+                        </div>
+
+                        <div class="right-message">
+                            <textarea rows="4" cols="33" id="message"></textarea>
+                        </div>
+
+
+                       
+                        <div class="clearfix"></div>
+                        <br>
+                        <button class="btn btn-default" id="submit-form">Submit</button>
+
+                    </form>
+
+
+
+                </div>
+
+
+
+                <div class="contact-link-area">
+                    <div class="link-email-title">
+                        Email
+                    </div>
+                    <div class="link-email">
+                        <a href="#" id="email-link">bjsmith3185@hotmail.com</a>
+                    </div>
+
+                    <div class="link-github-title">
+                        GitHub
+                    </div>
+                    <div class="link-github">
+                        <a href="#" id="github-link">GitHub link</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="footer text-center">
+            Created by: BJ Smith   09-05-2018
+        </div>
+
+        <!-- <div class="parallax-4"></div> -->
+
+        <!-- <div class="scrolling-div-4">
+            use this one for extra
+        </div> -->
+       
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    </div>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 720 || document.documentElement.scrollTop > 720) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+
+
+
+
+
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script type='text/javascript' src='new_layout.js'></script>
+</body>
+
+</html>

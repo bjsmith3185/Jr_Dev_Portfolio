@@ -1,0 +1,278 @@
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background: black;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../assets/images/keyboard.jpg');
+    /* background: orange; */
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+}
+
+
+.container-fluid {
+    height: 100%; 
+}
+
+.scrolling-div {
+    height:50px;
+    background-color:rgb(219, 217, 217);
+    color: lightblue;
+    /* opacity: 0.5; */
+    font-size:36px;
+}
+
+.parallax-2 {
+    /* The image used */
+    /* background-image: url('../assets/images/home_office.jpg'); */
+    background: white;
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+}
+
+.scrolling-div-2 {
+    height:200px;
+    background-color:gray;
+    color: lightblue;
+    opacity: 0.5;
+    font-size:36px;
+}
+
+.parallax-3 {
+    /* The image used */
+    background-image: url('../assets/images/code.png');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+}
+
+.scrolling-div-3 {
+    height:200px;
+    background-color:gray;
+    color: lightblue;
+    opacity: 0.5;
+    font-size:36px;
+}
+
+.parallax-4 {
+    /* The image used */
+    background-image: url('../assets/images/office.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+}
+
+
+/* END PARALLAX   */
+
+/* cut out name  */
+
+/* .image-container {
+    background-image: url("img_nature.jpg");
+    background-size: cover;
+    position: relative;
+    height: 300px;
+  } */
+
+
+  .text {
+    background-color: white;
+    /* background: rgb(219, 217, 217); */
+    color: black;
+    font-size: 10vw; 
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+  }
+
+
+ /* end of css for the parallax area  */
+ 
+
+
+
+ /* beginning of dropdown menu in navbar  */
+
+ .navbar {
+    margin-bottom: 0px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    z-index: 2;
+    color: white;
+    background: black;
+    width: 100%;
+    height: 15px;
+    }
+    
+    .dropdown {
+        margin-top: 12px;
+        margin-left: 30px;
+        position: relative;
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .glyphicon {
+        font-size: 20px;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    /* end of dropdown on hover  */
+    
+    /* return to top area  */
+
+
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: inline-block;
+      }
+      
+      #myBtn:hover {
+        background-color: #555;
+      }
+
+      /* end of return to top area  */
+
+
+      /* adding projects area  */
+
+      .project-container {
+          width: 100%;
+          height: 300px;
+          border: 2px solid black;
+          margin-top: 15px;
+          padding: 25px;
+      }
+
+      .project-summary {
+        position: relative;
+          width: 100%;
+          height: 100%;
+          padding: 15px;
+          background: blue;
+          color: white;
+      }
+
+
+      .project-title,
+      .info-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 5px;
+      }
+
+      .project-body {
+          margin-top: 30px;
+          font-size: 20px;
+          font-weight: 900;
+
+      }
+      
+      .project-footer,
+      .info-details {
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+        width: 50px;
+        color: red;
+        font-size: 18px;
+      }
+
+      .project-info {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+        background: green;
+        color: white;
+      }
+
+      .info-link-div {
+          margin-top: 40px;
+        }
+
+      .info-link {
+          font-size: 20px;
+          color: orange;
+
+      }
+
+      .info-techonolgies {
+          margin-top: 40px;
+          font-size: 20px;
+          font-weight: bold;
+      }
+
+
+/* end of adding to portfolio area */
+
+
+

@@ -1,0 +1,133 @@
+
+/* body {
+    background: black;
+} */
+.navbar {
+
+    margin-bottom: 0px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    z-index: 2;
+    color: red;
+}
+.icon-bar,
+.nav-link {
+    color: rgb(143, 140, 140);
+    color: white;
+    font-size: 18px;
+}
+
+/* .welcome-title {
+    font-size: 33px;
+    color: rgb(143, 140, 140);
+} */
+
+/* parallax css below  */
+
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('images/Emmett3.jpg');
+    /* background: orange; */
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+}
+
+
+#background-picture {
+    /* background-image: url('Emmett3.jpg'); */
+  
+    height: 100%; 
+
+    /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+}
+
+.scrolling-div {
+    height:500px;
+    background-color:lightgray;
+    color: white;
+    opacity: 0.5;
+    font-size:36px;
+}
+
+.parallax-2 {
+    /* The image used */
+    background-image: url('images/Emmett4.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+}
+
+.scrolling-div-2 {
+    height:500px;
+    background-color:lightgray;
+    color: lightblue;
+    opacity: 0.5;
+    font-size:36px;
+}
+
+.parallax-3 {
+    /* The image used */
+    background-image: url('images/Emmett5.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+}
+
+/* END PARALLAX   */
+
+/* cut out name  */
+
+/* .image-container {
+    background-image: url("img_nature.jpg");
+    background-size: cover;
+    position: relative;
+    height: 300px;
+  } */
+
+
+  .text {
+    background-color: white;
+    color: black;
+    font-size: 10vw; 
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+  }
+
+
