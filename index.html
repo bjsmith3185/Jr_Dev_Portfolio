@@ -35,6 +35,12 @@
 
     <div class="container-fluid" id="background-picture">
         <div class="text">BJ SMITH</div>
+        <div id="projects-link">
+            <a href="#projects">
+                <span id="arrow_box">Projects</span>
+            </a>
+        </div>
+
         <div class="landing-page" id="home"></div>
 
 
@@ -365,6 +371,8 @@
 
         </aside>
 
+        <!-- <div class="projects-link">Projects</div> -->
+
 
     </div>
 
@@ -390,6 +398,10 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
+
+        setTimeout(function () {
+            document.getElementById('projects-link').style.visibility = "visible";
+        }, 4000);
     </script>
 
 
