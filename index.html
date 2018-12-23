@@ -9,10 +9,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel='stylesheet' href='assets/css/new_layout.css'>
+    <link rel='stylesheet' href='assets/css/main.css'>
     <link rel='stylesheet' href='assets/css/asside-button.css'>
     <link rel='stylesheet' href='assets/css/contact-page.css'>
     <link rel='stylesheet' href='assets/css/skills-page.css'>
+    <link rel='stylesheet' href='assets/css/links.css'>
+    <link rel='stylesheet' href='assets/css/projects-page.css'>
+
 </head>
 
 <body>
@@ -35,6 +38,7 @@
 
     <div class="container-fluid" id="background-picture">
         <div class="text">BJ SMITH</div>
+        <!-- downarrow link  -->
         <div id="projects-link">
             <a href="#projects">
                 <span id="arrow_box">Projects</span>
@@ -56,16 +60,18 @@
                     <div class="project-container text-center" data-summary="summary-4" data-info="info-4">
 
                         <div class="project-inside-container project-summary text-center" id="summary-4">
-                            <div class="project-title text-center">Day Care Sign-in</div>
-                            <div class="project-body text-center">Collects and displays information using firebase.</div>
-                            <div class="project-footer">Details</div>
+                            <div class="project-title text-center">Food-Truck Finder</div>
+                            <div class="project-body text-center">Displays the location of food-trucks based on tweets.</div>
+                            <div class="project-footer">Hover for Details</div>
                         </div>
 
                         <div class="project-inside-container project-info" id="info-4">
-                            <div class="info-title text-center">Project Name</div>
-                            <div class="info-link-div"><a href="" class="info-link"></a></div>
-                            <div class="info-techonolgies">HTML, CSS, Javascript, Jquery, Firebase</div>
-                            <div class="info-details text-center">Details</div>
+                            <div class="info-title text-center">Food-Truck Finder</div>
+                            <div class="info-link-div"><a href="#" class="info-link">GitHub Link</a></div>
+                            <div class="info-techonolgies">Node, Express, SQL, JQuery </div>
+                            <div class="info-details text-center">
+                                <a href="#" class="project-deploy-link">Heroku Link</a>
+                            </div>
                         </div>
 
                     </div>
@@ -75,16 +81,18 @@
                     <div class="project-container text-center" data-summary="summary-5" data-info="info-5">
 
                         <div class="project-inside-container project-summary text-center" id="summary-5">
-                            <div class="project-title text-center">Project Name</div>
-                            <div class="project-body text-center">Project summary</div>
-                            <div class="project-footer">Details</div>
+                            <div class="project-title text-center">Ad-On</div>
+                            <div class="project-body text-center">Display advertisements based on user searches.</div>
+                            <div class="project-footer">Hover for Details</div>
                         </div>
 
                         <div class="project-inside-container project-info" id="info-5">
-                            <div class="info-title text-center">Project Name</div>
-                            <div class="info-link-div"><a href="#" class="info-link">GitHub Link</a></div>
-                            <div class="info-techonolgies">HTML, CSS, Javascript</div>
-                            <div class="info-details text-center">Details</div>
+                            <div class="info-title text-center">Ad-On</div>
+                            <div class="info-link-div"><a href="https://github.com/bjsmith3185/advertisement_addon.git" class="info-link">GitHub Link</a></div>
+                            <div class="info-techonolgies">MongoDB, Express, React, Node</div>
+                            <div class="info-details text-center">
+                                <a href="https://still-wildwood-46570.herokuapp.com/" class="project-deploy-link">Heroku Link</a>
+                            </div>
                         </div>
 
                     </div>
@@ -94,20 +102,29 @@
                     <div class="project-container text-center" data-summary="summary-6" data-info="info-6">
 
                         <div class="project-inside-container project-summary text-center" id="summary-6">
-                            <div class="project-title text-center">Project Name</div>
-                            <div class="project-body text-center">Project summary</div>
-                            <div class="project-footer">Details</div>
+                            <div class="project-title text-center">Match It</div>
+                            <div class="project-body text-center">A learning tool based on matching.</div>
+                            <div class="project-footer">Hover for Details</div>
                         </div>
 
                         <div class="project-inside-container project-info" id="info-6">
-                            <div class="info-title text-center">Project Name</div>
-                            <div class="info-link-div"><a href="#" class="info-link">GitHub Link</a></div>
-                            <div class="info-techonolgies">HTML, CSS, Javascript</div>
-                            <div class="info-details text-center">Details</div>
+                            <div class="info-title text-center">Match It</div>
+                            <div class="info-link-div"><a href="https://github.com/bjsmith3185/Emmett-s_Matching_Game.git" class="info-link">GitHub Link</a></div>
+                            <div class="info-techonolgies">MongoDB, Express, React, Node</div>
+                            <div class="info-details text-center">
+                                <a href="https://salty-caverns-13038.herokuapp.com/" class="project-deploy-link">Heroku Link</a>
+                            </div>
                         </div>
 
                     </div>
                 </div>
+            </div>
+
+            <!-- downarrow link  -->
+            <div id="education-link">
+                <a href="#education">
+                    <span id="arrow_box">Education</span>
+                </a>
             </div>
         </div>
 
@@ -170,6 +187,13 @@
                 </div>
 
 
+            </div>
+
+            <!-- downarrow link  -->
+            <div id="skills-link">
+                <a href="#skills">
+                    <span id="arrow_box"> Skills </span>
+                </a>
             </div>
         </div>
 
@@ -264,11 +288,16 @@
 
 
 
-            <div class="skills-area">
+            <!-- <div class="skills-area">
 
+            </div> -->
+
+            <!-- downarrow link  -->
+            <div id="contact-link">
+                <a href="#contact">
+                    <span id="arrow_box">Contact</span>
+                </a>
             </div>
-
-
 
         </div>
         <!-- added new section above  -->

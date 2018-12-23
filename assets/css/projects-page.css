@@ -1,0 +1,83 @@
+
+
+
+      /* adding projects area  */
+
+      .project-container {
+          width: 100%;
+          height: 300px;
+          /* border: 2px solid black; */
+          margin-top: 250px;
+          padding: 25px;
+      }
+
+      .project-summary {
+        position: relative;
+          width: 100%;
+          height: 100%;
+          padding: 15px;
+          background: blue;
+          color: white;
+          border-radius: 8px;
+      }
+
+
+      .project-title,
+      .info-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 5px;
+      }
+
+      .project-body {
+          margin-top: 30px;
+          font-size: 20px;
+          font-weight: 900;
+
+      }
+      
+      .project-footer,
+      .info-details {
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+        width: 50%;
+        color: red;
+        font-size: 18px;
+      }
+
+      .project-deploy-link {
+          color: blue;
+      }
+
+      .project-info {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+        background: green;
+        color: white;
+        border-radius: 8px;
+      }
+
+      .info-link-div {
+          margin-top: 40px;
+        }
+
+      .info-link {
+          font-size: 20px;
+          color: orange;
+
+      }
+
+      .info-techonolgies {
+          margin-top: 40px;
+          font-size: 20px;
+          font-weight: bold;
+      }
+
+      /* #info-4:nth-child(2) {
+          font-size: 10px;
+      } */
+
+
