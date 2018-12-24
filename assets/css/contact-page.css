@@ -5,6 +5,12 @@
     height: 95%;
 }
 
+.contact-title {
+    color: #00bc8c;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
 .resume-area {
     margin-top: 50px;
 }
@@ -24,8 +30,8 @@
     border-radius: 40px;
     height: 90px;
     width: 150px;
-    background: blue;
-    color: white;
+    background: #375a7f;
+    color: #303030;
     font-size: 30px;
 }
     

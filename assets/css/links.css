@@ -1,5 +1,5 @@
 
-
+/* Asside Area  */
 
 .aside-link-area {
     position: absolute;
@@ -16,13 +16,16 @@
     border-radius: 24px;
     height: 50px;
     width: 85px;
-    background: white;
-    color: black;
+    background: #32fac8;
+    color: white;
+    opacity: .5;
+    font-weight: bolder;
+    font-size: 16px;
 }
 
 .button-border:hover {
-    background: rgb(58, 58, 243);
-    color: white;
+    background: #74f3d3;
+    color: #3498DB;
 }
 
 .link-btn {
@@ -40,7 +43,7 @@
     animation-delay: 1s;
     animation-duration: 3s;  
     animation-fill-mode: forwards;
-  }
+}
 
   #second-link {
     
@@ -78,19 +81,13 @@
     from {top: 0px;}
     to {top: 200px}
 }
-  
    
 
 /* arrow links  */
+
     /* project link  */
 #projects-link {
-    /* background-color: white; */
-    /* border-radius: 10px; */
-    /* color: black; */
-    /* font-size: 25px;  */
-    /* font-weight: bold; */
     margin: 0 auto;
-    /* padding: 10px; */
     width: 200px;
     text-align: center;
     position: absolute;
@@ -102,18 +99,23 @@
     visibility: hidden;
   }
 
-  #arrow_box {
+  .arrow_box {
 	position: relative;
-    background: white;
-    /* opacity: .75; */
-    border: 4px solid #c2e1f5;
+    background: #303030;
+    color: white;
+    border: 4px solid #00bc8c;
     width: 100px;
     font-size: 20px;
     padding: 3px;
     font-weight: bold;
 }
-#arrow_box:after, 
-#arrow_box:before {
+
+
+.arrow_box:hover {
+    color: #3498DB;
+}
+.arrow_box:after, 
+.arrow_box:before {
 	top: 100%;
 	left: 50%;
 	border: solid transparent;
@@ -122,65 +124,109 @@
 	width: 0;
 	position: absolute;
     pointer-events: none;
-    
 }
 
-#arrow_box:after {
+.arrow_box:after {
 	border-color: rgba(136, 183, 213, 0);
-	border-top-color: white;
+	border-top-color: #303030;
 	border-width: 30px;
     margin-left: -30px;
     
 }
-#arrow_box:before {
+.arrow_box:before {
 	border-color: rgba(194, 225, 245, 0);
-	border-top-color: #c2e1f5;
+	border-top-color: #00bc8c;
 	border-width: 36px;
 	margin-left: -36px;
 }
 
+#arrow_education {
+    color: #3498DB;
+    background: black;
+}
+#arrow_education:after {
+	border-top-color: black;
+}
+
     /* education link  */
     #education-link {
-       
         margin: 0 auto;
- 
         width: 200px;
         text-align: center;
         position: absolute;
         top: 190%;
         left: 50%;
         transform: translate(-50%, -50%);
-
         z-index: 2;
-
       }
     
    /* skills link  */
    #skills-link {
- 
-    margin: 0 auto;
-
+     margin: 0 auto;
     width: 200px;
     text-align: center;
     position: absolute;
-    top: 307.5%;
+    top: 305%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     z-index: 2;
   }
+
+  #arrow_skills {
+    color: #3498DB;
+    background: black;
+}
+#arrow_skills:after {
+	border-top-color: black;
+}
 
 /* contact link  */
 #contact-link {
     margin: 0 auto;
-
     width: 200px;
     text-align: center;
     position: absolute;
     top: 422%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     z-index: 2;
-
   }
+
+  #arrow_contact {
+    color: #3498DB;
+    background: black;
+}
+#arrow_contact:after {
+	border-top-color: black;
+}
+
+
+/* return to top area  */
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+  /* end of return to top area  */
+
+
+

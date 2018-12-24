@@ -3,12 +3,23 @@
 
       /* adding projects area  */
 
+      .project-area {
+          padding-top: 50px;
+      }
+
+      .projects-title {
+        color: #00bc8c;
+        font-weight: bolder;
+        font-size: 50px;
+      }
+
       .project-container {
           width: 100%;
           height: 300px;
           /* border: 2px solid black; */
-          margin-top: 250px;
+          margin-top: 150px;
           padding: 25px;
+          /* background: #303030; */
       }
 
       .project-summary {
@@ -16,8 +27,8 @@
           width: 100%;
           height: 100%;
           padding: 15px;
-          background: blue;
-          color: white;
+          background: #303030;
+          color: #00bc8c;
           border-radius: 8px;
       }
 
@@ -36,42 +47,58 @@
 
       }
       
-      .project-footer,
+     
       .info-details {
         position: absolute;
         left: 20px;
         bottom: 20px;
         width: 50%;
-        color: red;
+        /* color: #3498DB; */
+        font-size: 18px;
+      }
+
+      .project-footer {
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+        width: 50%;
+        color: #3498DB;
         font-size: 18px;
       }
 
       .project-deploy-link {
-          color: blue;
+          color: #F39C12;
       }
+
+      .project-deploy-link:hover {
+        color: #F39C12;
+    }
 
       .project-info {
         position: relative;
         width: 100%;
         height: 100%;
         padding: 15px;
-        background: green;
-        color: white;
+        background: #375a7f;
+        color: #00bc8c;
         border-radius: 8px;
       }
 
       .info-link-div {
-          margin-top: 40px;
+          margin-top: 30px;
         }
 
       .info-link {
           font-size: 20px;
-          color: orange;
-
+          color: #F39C12;
       }
 
+      .info-link:hover {
+        color: #F39C12;
+    }
+
       .info-techonolgies {
-          margin-top: 40px;
+          margin-top: 20px;
           font-size: 20px;
           font-weight: bold;
       }

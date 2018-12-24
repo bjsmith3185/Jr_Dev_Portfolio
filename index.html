@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>parallax dropdown</title>
+    <title>BJ Smith Portfolio</title>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -10,11 +10,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel='stylesheet' href='assets/css/main.css'>
-    <link rel='stylesheet' href='assets/css/asside-button.css'>
+    <!-- <link rel='stylesheet' href='assets/css/asside-button.css'> -->
     <link rel='stylesheet' href='assets/css/contact-page.css'>
     <link rel='stylesheet' href='assets/css/skills-page.css'>
     <link rel='stylesheet' href='assets/css/links.css'>
     <link rel='stylesheet' href='assets/css/projects-page.css'>
+    <link rel='stylesheet' href='assets/css/navbar.css'>
+    <link rel='stylesheet' href='assets/css/education-page.css'>
+
 
 </head>
 
@@ -41,7 +44,7 @@
         <!-- downarrow link  -->
         <div id="projects-link">
             <a href="#projects">
-                <span id="arrow_box">Projects</span>
+                <span class="arrow_box">Projects</span>
             </a>
         </div>
 
@@ -51,71 +54,81 @@
         <div class="scrolling-div" id="projects">
 
             <!-- This one scrolls over the image -->
-
-            <div class="line-break"></div>
-
-            <div class="row">
-                <div class="col-lg-4 text-center">
-
-                    <div class="project-container text-center" data-summary="summary-4" data-info="info-4">
-
-                        <div class="project-inside-container project-summary text-center" id="summary-4">
-                            <div class="project-title text-center">Food-Truck Finder</div>
-                            <div class="project-body text-center">Displays the location of food-trucks based on tweets.</div>
-                            <div class="project-footer">Hover for Details</div>
-                        </div>
-
-                        <div class="project-inside-container project-info" id="info-4">
-                            <div class="info-title text-center">Food-Truck Finder</div>
-                            <div class="info-link-div"><a href="#" class="info-link">GitHub Link</a></div>
-                            <div class="info-techonolgies">Node, Express, SQL, JQuery </div>
-                            <div class="info-details text-center">
-                                <a href="#" class="project-deploy-link">Heroku Link</a>
-                            </div>
-                        </div>
-
-                    </div>
+            <div class="project-area">
+                <div class="projects-title text-center">
+                    Projects
                 </div>
 
-                <div class="col-lg-4 text-center">
-                    <div class="project-container text-center" data-summary="summary-5" data-info="info-5">
+                <div class="line-break"></div>
 
-                        <div class="project-inside-container project-summary text-center" id="summary-5">
-                            <div class="project-title text-center">Ad-On</div>
-                            <div class="project-body text-center">Display advertisements based on user searches.</div>
-                            <div class="project-footer">Hover for Details</div>
-                        </div>
+                <div class="row">
+                    <div class="col-lg-4 text-center">
 
-                        <div class="project-inside-container project-info" id="info-5">
-                            <div class="info-title text-center">Ad-On</div>
-                            <div class="info-link-div"><a href="https://github.com/bjsmith3185/advertisement_addon.git" class="info-link">GitHub Link</a></div>
-                            <div class="info-techonolgies">MongoDB, Express, React, Node</div>
-                            <div class="info-details text-center">
-                                <a href="https://still-wildwood-46570.herokuapp.com/" class="project-deploy-link">Heroku Link</a>
+                        <div class="project-container text-center" data-summary="summary-4" data-info="info-4">
+
+                            <div class="project-inside-container project-summary text-center" id="summary-4">
+                                <div class="project-title text-center">Food-Truck Finder</div>
+                                <div class="project-body text-center">Displays the location of food-trucks based on
+                                    tweets.</div>
+                                <div class="project-footer">Hover for Details</div>
                             </div>
-                        </div>
 
+                            <div class="project-inside-container project-info" id="info-4">
+                                <div class="info-title text-center">Food-Truck Finder</div>
+                                <div class="info-link-div"><a href="#" class="info-link">GitHub Link</a></div>
+                                <div class="info-techonolgies">Node, Express, SQL, JQuery </div>
+                                <div class="info-details text-center">
+                                    <a href="#" class="project-deploy-link">Heroku Link</a>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-lg-4 text-center">
-                    <div class="project-container text-center" data-summary="summary-6" data-info="info-6">
+                    <div class="col-lg-4 text-center">
+                        <div class="project-container text-center" data-summary="summary-5" data-info="info-5">
 
-                        <div class="project-inside-container project-summary text-center" id="summary-6">
-                            <div class="project-title text-center">Match It</div>
-                            <div class="project-body text-center">A learning tool based on matching.</div>
-                            <div class="project-footer">Hover for Details</div>
-                        </div>
-
-                        <div class="project-inside-container project-info" id="info-6">
-                            <div class="info-title text-center">Match It</div>
-                            <div class="info-link-div"><a href="https://github.com/bjsmith3185/Emmett-s_Matching_Game.git" class="info-link">GitHub Link</a></div>
-                            <div class="info-techonolgies">MongoDB, Express, React, Node</div>
-                            <div class="info-details text-center">
-                                <a href="https://salty-caverns-13038.herokuapp.com/" class="project-deploy-link">Heroku Link</a>
+                            <div class="project-inside-container project-summary text-center" id="summary-5">
+                                <div class="project-title text-center">Ad-On</div>
+                                <div class="project-body text-center">Display advertisements based on user searches.</div>
+                                <div class="project-footer">Hover for Details</div>
                             </div>
-                        </div>
 
+                            <div class="project-inside-container project-info" id="info-5">
+                                <div class="info-title text-center">Ad-On</div>
+                                <div class="info-link-div"><a href="https://github.com/bjsmith3185/advertisement_addon.git"
+                                        class="info-link">GitHub Link</a></div>
+                                <div class="info-techonolgies">MongoDB, Express, React, Node</div>
+                                <div class="info-details text-center">
+                                    <a href="https://still-wildwood-46570.herokuapp.com/" class="project-deploy-link">Heroku
+                                        Link</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 text-center">
+                        <div class="project-container text-center" data-summary="summary-6" data-info="info-6">
+
+                            <div class="project-inside-container project-summary text-center" id="summary-6">
+                                <div class="project-title text-center">Match It</div>
+                                <div class="project-body text-center">A learning tool based on matching.</div>
+                                <div class="project-footer">Hover for Details</div>
+                            </div>
+
+                            <div class="project-inside-container project-info" id="info-6">
+                                <div class="info-title text-center">Match It</div>
+                                <div class="info-link-div"><a href="https://github.com/bjsmith3185/Emmett-s_Matching_Game.git"
+                                        class="info-link">GitHub Link</a></div>
+                                <div class="info-techonolgies">MongoDB, Express, React, Node</div>
+                                <div class="info-details text-center">
+                                    <a href="https://salty-caverns-13038.herokuapp.com/" class="project-deploy-link">Heroku
+                                        Link</a>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -123,7 +136,7 @@
             <!-- downarrow link  -->
             <div id="education-link">
                 <a href="#education">
-                    <span id="arrow_box">Education</span>
+                    <span class="arrow_box" id="arrow_education">Education</span>
                 </a>
             </div>
         </div>
@@ -192,7 +205,7 @@
             <!-- downarrow link  -->
             <div id="skills-link">
                 <a href="#skills">
-                    <span id="arrow_box"> Skills </span>
+                    <span class="arrow_box" id="arrow_skills"> Skills </span>
                 </a>
             </div>
         </div>
@@ -203,90 +216,85 @@
 
         <div class="scrolling-div-3" id="skills">
             <!-- use this one for skils -->
+            <div class="skills-area text-center">
 
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="contact-title text-center">
-                        Skills
-                    </div>
+                <div class="skills-title text-center">
+                    Skills
                 </div>
 
+                <div class="row skill-row">
+                    <div class="col-lg-1"></div>
 
-            </div>
-
-            <div class="row skill-row">
-                <div class="col-lg-1"></div>
-
-                <div class="col-lg-2 text-center">
-                    <div class="skill-image-area">
-                        <img class="skill-image" src="assets/images/skills/js.png" alt="javascript" />
+                    <div class="col-lg-2 text-center">
+                        <div class="skill-image-area">
+                            <img class="skill-image" src="assets/images/skills/js.png" alt="javascript" />
+                        </div>
                     </div>
+
+                    <div class="col-lg-2 text-center">
+                        <div class="skill-image-area">
+                            <img class="skill-image" src="assets/images/skills/html-css.png" alt="css-html" />
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 text-center">
+                        <div class="skill-image-area">
+                            <img class="skill-image" src="assets/images/skills/jquery2.png" alt="jquery" />
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 text-center">
+                        <div class="skill-image-area">
+                            <img class="skill-image" src="assets/images/skills/node1.png" alt="node" />
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 text-center">
+                        <div class="skill-image-area">
+                            <img class="skill-image" src="assets/images/skills/express2.png" alt="express" />
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="col-lg-2 text-center">
-                    <div class="skill-image-area">
-                        <img class="skill-image" src="assets/images/skills/html-css.png" alt="css-html" />
+                <!-- second skills row  -->
+
+                <div class="row skill-row-2">
+                    <div class="col-lg-1"></div>
+
+                    <div class="col-lg-2 text-center">
+                        <div class="skill-image-area">
+                            <img class="skill-image" src="assets/images/skills/npm.png" alt="npm" />
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-lg-2 text-center">
-                    <div class="skill-image-area">
-                        <img class="skill-image" src="assets/images/skills/jquery.png" alt="jquery" />
+                    <div class="col-lg-2 text-center">
+                        <div class="skill-image-area">
+                            <img class="skill-image" src="assets/images/skills/react.png" alt="react" />
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-lg-2 text-center">
-                    <div class="skill-image-area">
-                        <img class="skill-image" src="assets/images/skills/node.png" alt="node" />
+                    <div class="col-lg-2 text-center">
+                        <div class="skill-image-area">
+                            <img class="skill-image" src="assets/images/skills/mongo.png" alt="mongo" />
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-lg-2 text-center">
-                    <div class="skill-image-area">
-                        <img class="skill-image" src="assets/images/skills/express.png" alt="express" />
+                    <div class="col-lg-2 text-center">
+                        <div class="skill-image-area">
+                            <img class="skill-image" src="assets/images/skills/bootstrap.png" alt="bootstrap" />
+                        </div>
                     </div>
-                </div>
 
-            </div>
-
-            <!-- second skills row  -->
-
-            <div class="row skill-row-2">
-                <div class="col-lg-1"></div>
-
-                <div class="col-lg-2 text-center">
-                    <div class="skill-image-area">
-                        <img class="skill-image" src="assets/images/skills/npm.png" alt="npm" />
+                    <div class="col-lg-2 text-center">
+                        <div class="skill-image-area">
+                            <img class="skill-image" src="assets/images/skills/Octocat.png" alt="github" />
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-lg-2 text-center">
-                    <div class="skill-image-area">
-                        <img class="skill-image" src="assets/images/skills/react.png" alt="react" />
-                    </div>
-                </div>
-
-                <div class="col-lg-2 text-center">
-                    <div class="skill-image-area">
-                        <img class="skill-image" src="assets/images/skills/mongo.png" alt="mongo" />
-                    </div>
-                </div>
-
-                <div class="col-lg-2 text-center">
-                    <div class="skill-image-area">
-                        <img class="skill-image" src="assets/images/skills/bootstrap.png" alt="bootstrap" />
-                    </div>
-                </div>
-
-                <div class="col-lg-2 text-center">
-                    <div class="skill-image-area">
-                        <img class="skill-image" src="assets/images/skills/Octocat.png" alt="github" />
-                    </div>
                 </div>
 
             </div>
-
-
 
             <!-- <div class="skills-area">
 
@@ -295,7 +303,7 @@
             <!-- downarrow link  -->
             <div id="contact-link">
                 <a href="#contact">
-                    <span id="arrow_box">Contact</span>
+                    <span class="arrow_box" id="arrow_contact">Contact</span>
                 </a>
             </div>
 

@@ -1,5 +1,13 @@
 /* This is far enough back   */
 
+/* #375a7f darkblue  */
+/* #00bc8c green for links  */
+
+/* #303030 lighter black  */
+
+/* #3498DB brighter blue  */
+/* #F39C12 orange for links in projects  */
+
 
 body, html {
     height: 100%;
@@ -27,18 +35,9 @@ body {
 
 
 .scrolling-div {
-    /* height:90px;
-    background-color:rgb(219, 217, 217);
-    color: lightblue;
   
-    font-size:36px; */
-
-/* The image used */
-    /* background-image: url('../assets/images/home_office.jpg'); */
     padding-top: 20px;
-    background: rgb(219, 217, 217);
-
-    /* Full height */
+    background: black;
     height: 100%; 
 
     /* Create the parallax scrolling effect */
@@ -47,10 +46,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     /* opacity: 0.5; */
-
-
-
-
 }
 
 
@@ -59,7 +54,7 @@ body {
     /* The image used */
     background-image: url('../images/code.png');
 
-    /* Full height */
+    /* Partial height */
     height: 15%; 
 
     /* Create the parallax scrolling effect */
@@ -72,9 +67,8 @@ body {
 
 .scrolling-div-2 {
     height:100%;
-    background-color:rgb(219, 217, 217);
+    background-color:black;
     color: black;
-    /* opacity: 0.5; */
     font-size:36px;
 }
 
@@ -82,7 +76,7 @@ body {
     /* The image used */
     background-image: url('../images/code.png');
 
-    /* Full height */
+    /* Partial height */
     height: 15%; 
 
     /* Create the parallax scrolling effect */
@@ -95,9 +89,8 @@ body {
 
 .scrolling-div-3 {
     height:100%;
-    background-color:rgb(219, 217, 217);
+    background-color:black;
     color: black;
-    /* opacity: 0.5; */
     font-size:36px;
     padding: 30px;
 }
@@ -107,7 +100,7 @@ body {
     /* background-image: url('../assets/images/office.jpg'); */
     background-image: url('../images/code.png');
 
-    /* Full height */
+    /* Partial height */
     height: 15%; 
 
     /* Create the parallax scrolling effect */
@@ -120,33 +113,27 @@ body {
 
 .scrolling-div-4 {
     height:90%;
-    background-color:rgb(219, 217, 217);
-    color: black;
-    /* opacity: 0.5; */
+    background-color:black;
+    color: white;
     font-size:36px;
 }
+
+/* Footer  */
 
 .footer {
     height: 50px;
     width: 100%;
-    background: darkgray;
+    background: #375a7f;
     color: white;
-    font-size: 10px;
+    font-size: 13px;
     padding: 10px;
-
 }
 
-
-/* END PARALLAX   */
-
-
-
-/* Home Page Text  */
   
 
 /* cut out name  */
   .text {
-    background-color: white;
+    background-color: #00bc8c;
     border-radius: 10px;
     font-size: 10vw; 
     font-weight: bold;
@@ -163,200 +150,5 @@ body {
   }
 
 
- /* end of css for the parallax area  */
  
-
-
-
- /* beginning of dropdown menu in navbar  */
-
- .navbar {
-    margin-bottom: 0px;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    z-index: 11;
-    color: white;
-    background: black;
-    width: 100%;
-    height: 15px;
-    }
-    
-    .dropdown {
-        margin-top: 12px;
-        margin-left: 30px;
-        position: relative;
-        display: inline-block;
-        font-size: 18px;
-    }
-
-    .glyphicon {
-        font-size: 20px;
-    }
-    
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        padding: 12px 16px;
-        z-index: 1;
-    }
-    
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-    
-    /* end of dropdown on hover  */
-    
-    /* return to top area  */
-
-
-    #myBtn {
-        display: none;
-        position: fixed;
-        bottom: 20px;
-        right: 30px;
-        z-index: 99;
-        font-size: 18px;
-        border: none;
-        outline: none;
-        background-color: blue;
-        color: white;
-        cursor: pointer;
-        height: 50px;
-        width: 50px;
-        border-radius: 50%;
-        display: inline-block;
-      }
-      
-      #myBtn:hover {
-        background-color: #555;
-      }
-
-      /* end of return to top area  */
-
-
-      /* adding projects area  */
-
-      .project-container {
-          width: 100%;
-          height: 300px;
-          /* border: 2px solid black; */
-          margin-top: 250px;
-          padding: 25px;
-      }
-
-      .project-summary {
-        position: relative;
-          width: 100%;
-          height: 100%;
-          padding: 15px;
-          background: blue;
-          color: white;
-      }
-
-
-      .project-title,
-      .info-title {
-        font-size: 24px;
-        font-weight: bold;
-        margin-top: 5px;
-      }
-
-      .project-body {
-          margin-top: 30px;
-          font-size: 20px;
-          font-weight: 900;
-
-      }
-      
-      .project-footer,
-      .info-details {
-        position: absolute;
-        left: 20px;
-        bottom: 20px;
-        width: 50px;
-        color: red;
-        font-size: 18px;
-      }
-
-      .project-info {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        padding: 15px;
-        background: green;
-        color: white;
-      }
-
-      .info-link-div {
-          margin-top: 40px;
-        }
-
-      .info-link {
-          font-size: 20px;
-          color: orange;
-
-      }
-
-      .info-techonolgies {
-          margin-top: 40px;
-          font-size: 20px;
-          font-weight: bold;
-      }
-
-      /* #info-4:nth-child(2) {
-          font-size: 10px;
-      } */
-
-
-/* end of adding to portfolio area */
-
-
-/* beginning of education area   */
-
-.education-area {
-    padding: 50px;
-}
-
-.education-title {
-    font-size: 40px;
-    margin-top: 5px;
-    font-weight: bolder;
-
-}
-
-.education-wrapper {
-    border: 1px solid black;
-    margin-top: 20px;
-}
-
-.education-wrapper:hover {
-    background: white;
-}
-
-.education {
-    margin-left: 100px;
-    padding: 5px;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.education-1,
-.education-2,
-.education-3,
-.education-4 {
-    /* margin-top: 15px; */
-}
-
-.college {
-    font-size: 24px;
-    font-weight: bolder;
-    
-}
-
-/* end of education area  */
-
-/* beginning of contact area  */
 
