@@ -25,7 +25,24 @@
     margin-top: 50px;
 }
 
-.contact-button {
+.contact-link {
+    height: 100px;
+    width: 100px;
+    opacity: .8;
+}
+
+/* .contact-link:hover {
+    height: 120px;
+    width: 120px;
+} */
+
+.contact-link:hover {
+    opacity: 1;
+}
+
+
+
+/* .contact-button {
     margin-top:0px;
     margin-left: 0px;
     border-radius: 40px;
@@ -34,9 +51,9 @@
     background: #375a7f;
     color: #303030;
     font-size: 30px;
-}
+} */
     
-.contact-button:hover {
+/* .contact-button:hover {
     margin-top:0px;
     margin-left: 0px;
     border-radius: 40px;
@@ -45,8 +62,31 @@
     background: #77b0ec;
     color: white;
     font-size: 30px;
+} */
+
+/* .contact-img-email {
+    height: 100px;
+    width: 100px;
+
 }
 
+.contact-img-linkedin {
+    height: 100px;
+    width: 100px;
+    
+}
+
+.contact-img-github {
+    height: 100px;
+    width: 100px;
+    
+}
+
+.contact-img-resume {
+    height: 100px;
+    width: 100px;
+    
+} */
 
 
 
