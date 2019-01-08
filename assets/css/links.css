@@ -37,7 +37,7 @@
 #first-link {
           
     position: absolute;
-    left:100px;
+    left:75px;
     top:-250px;
     animation-name: first;
     animation-delay: 1s;
@@ -48,7 +48,7 @@
   #second-link {
     
     position: absolute;
-    left:100px;
+    left:75px;
     top:-250px;
     animation-name: second;
     animation-delay: 1s;
@@ -59,7 +59,7 @@
   #third-link {
    
     position: absolute;
-    left:100px;
+    left:75px;
     top:-250px;
     animation-name: third;
     animation-delay: 1s;
@@ -69,17 +69,17 @@
 
   @keyframes first {
     from {top: 0px;}
-    to {top: 500px}
+    to {top: 450px}
 }
 
 @keyframes second {
     from {top: 0px;}
-    to {top: 350px}
+    to {top: 300px}
 }
 
 @keyframes third {
     from {top: 0px;}
-    to {top: 200px}
+    to {top: 150px}
 }
    
 
@@ -233,4 +233,21 @@
   /* end of return to top area  */
 
 
+  @media screen and (min-width: 0px) and (max-width: 768px) {
 
+    .aside-link-area { display: none; }
+
+
+};
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+
+    
+};
+
+@media screen and (max-width: 768px) {
+    #projects-link, 
+    #education-link,
+    #skills-link,
+    #contact-link { display: none; }
+  }

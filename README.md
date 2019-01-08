@@ -13,6 +13,18 @@ Brian
 
 todo:
 
+1/7/19
+media query between 999 and 768, the project page has distorted images
+
+below 1024 need to add space at the top and between elements 
+
+above 1024, most of it looks good.
+
+
+
+
+
+
 look for new "project link" buttons to replace arrows
 what links need to be on the left side of home page?
 

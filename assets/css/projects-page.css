@@ -1,205 +1,155 @@
 
 
 
-      /* adding projects area  */
+/* adding projects area  */
 
-      .project-area {
-          padding-top: 50px;
-      }
-
-      .projects-title {
-        color: #00bc8c;
-        font-weight: bolder;
-        font-size: 50px;
-      }
-
-      .project-container {
-          width: 100%;
-          height: 300px;
-          margin-top: 150px;
-          padding: 25px;
-      }
-
-
-/* project image shown before hover  */
-#project-1-image {
-  width: 100%;
-  height: 100%;
-  background-image: url("../images/projects/AD_On.png");
-  background-size: 100% 100%;
+.project-area {
+    padding-top: 50px;
+    box-sizing: border-box;
 }
 
-/* project image shown after hover  */
-#project-1-image-info {
-  width: 100%;
-  height: 100%;
-  background-size: 100% 100%;
-  position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/projects/AD_On.png");
-}
-
-/* css inside the info box (visible on hover)  */
-.visit-site {
-  position: relative;
-  top: 10px;
-}
-
-.visit-site-link {
-  color: white;
-  font-size: 40px;
+.projects-title {
+  color: #00bc8c;
   font-weight: bolder;
-  text-decoration: none;
+  font-size: 50px;
 }
 
-.visit-site-link:hover {
-  color: rgb(211, 197, 197);
-  font-weight: bold;
-  text-decoration: none;
+.project-container {
+    width: 80%;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 25px; */
 }
 
 
-
-.github {
+.project-box {
   position: relative;
-  top: 25px;
-}
-
-.github-link {
-  color: white;
-  font-size: 26px;
-  font-weight: bolder;
-  text-decoration: none;
-}
-
-.github-link:hover {
-  color: rgb(211, 197, 197);
-  font-weight: bold;
-  text-decoration: none;
+    width: 100%;
+    height: 100%;
+    color: #00bc8c;
+    border-radius: 8px;
 }
 
 
-
-.tech-info {
-  position: relative;
-  top: 65px;
-  color: white;
-  font-size: 23px;
-}
-
-
-
-/* project image shown before hover  */
-#project-2-image {
-  width: 100%;
-  height: 100%;
-  background-image: url("../images/projects/AD_On.png");
-  background-size: 100% 100%;
-}
-
-/* project image shown after hover  */
-#project-2-image-info {
-  width: 100%;
-  height: 100%;
-  background-size: 100% 100%;
-  position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/projects/AD_On.png");
-}
-
-
-/* project 3 image shown before hover  */
-#project-3-image {
-  width: 100%;
-  height: 100%;
-  background-image: url("../images/projects/Match_It.png");
-  background-size: 100% 100%;
-}
-
-/* project 3 image shown after hover  */
-#project-3-image-info {
-  width: 100%;
-  height: 100%;
-  background-size: 100% 100%;
-  position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/projects/Match_It.png");
-}
-
-
-
-      .project-box {
-        position: relative;
-          width: 100%;
-          height: 100%;
-          color: #00bc8c;
-          border-radius: 8px;
-      }
-
-
-
-      .project-title {
-        font-size: 24px;
-        font-weight: bold;
-        margin-top: 5px;
-      }
-
-      
-     
-      /* .info-details {
-        position: absolute;
-        left: 20px;
-        bottom: 20px;
-        width: 50%;
-
-        font-size: 18px;
-      } */
-
-      /* .project-footer {
-        position: absolute;
-        left: 20px;
-        bottom: 20px;
-        width: 50%;
-        color: #3498DB;
-        font-size: 18px;
-      } */
-
-      /* .project-deploy-link {
-          color: #F39C12;
-      }
-
-      .project-deploy-link:hover {
-        color: #F39C12;
-    } */
-
-      .project-info {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        padding: 15px;
-        background: #375a7f;
-        color: #00bc8c;
-        border-radius: 8px;
-      }
-
-      /* .info-link-div {
-          margin-top: 30px;
-        }
-
-      .info-link {
-          font-size: 20px;
-          color: #F39C12;
-      }
-
-      .info-link:hover {
-        color: #F39C12;
+    /* project 1 image shown before hover  */
+    #project-1-image {
+      width: 100%;
+      height: 100%;
+      background-image: url("../images/projects/AD_On.png");
+      background-size: 100% 100%;
     }
 
-      .info-techonolgies {
-          margin-top: 20px;
-          font-size: 20px;
-          font-weight: bold;
-      } */
+    /* project 1 image shown after hover  */
+    #project-1-image-info {
+      width: 100%;
+      height: 100%;
+      background-size: 100% 100%;
+      position: relative;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/projects/AD_On.png");
+    }
 
-      /* #info-4:nth-child(2) {
-          font-size: 10px;
-      } */
+
+    /* project 2 image shown before hover  */
+    #project-2-image {
+      width: 100%;
+      height: 100%;
+      background-image: url("../images/projects/AD_On.png");
+      background-size: 100% 100%;
+    }
+
+    /* project 2 image shown after hover  */
+    #project-2-image-info {
+      width: 100%;
+      height: 100%;
+      background-size: 100% 100%;
+      position: relative;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/projects/AD_On.png");
+    }
+
+
+    /* project 3 image shown before hover  */
+    #project-3-image {
+      width: 100%;
+      height: 100%;
+      background-image: url("../images/projects/Match_It.png");
+      background-size: 100% 100%;
+    }
+
+    /* project 3 image shown after hover  */
+    #project-3-image-info {
+      width: 100%;
+      height: 100%;
+      background-size: 100% 100%;
+      position: relative;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/projects/Match_It.png");
+    }
+
+    /* project box on hover  */
+        .project-info {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          padding: 15px;
+          background: #375a7f;
+          color: #00bc8c;
+          border-radius: 8px;
+        }
+
+            /* css inside the info box (visible on hover)  */
+            .visit-site {
+              position: relative;
+              top: 10px;
+            }
+
+            .visit-site-link {
+              color: white;
+              font-size: 40px;
+              font-weight: bolder;
+              text-decoration: none;
+            }
+
+            .visit-site-link:hover {
+              color: rgb(211, 197, 197);
+              font-weight: bold;
+              text-decoration: none;
+            }
+
+
+
+            .github {
+              position: relative;
+              top: 25px;
+            }
+
+            .github-link {
+              color: white;
+              font-size: 26px;
+              font-weight: bolder;
+              text-decoration: none;
+            }
+
+            .github-link:hover {
+              color: rgb(211, 197, 197);
+              font-weight: bold;
+              text-decoration: none;
+            }
+
+            .tech-info {
+              position: relative;
+              top: 65px;
+              color: white;
+              font-size: 23px;
+            }
+      
+  
+@media screen and (min-width: 0px) and (max-width: 768px) {
+
+ 
+
+
+};
+
 
 

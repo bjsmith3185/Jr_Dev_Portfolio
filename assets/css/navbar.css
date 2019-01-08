@@ -17,6 +17,18 @@
         font-size: 30px;
         font-weight: bolder;
     }
+
+    .nav-top-link {
+        color: white;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .nav-top-link:hover {
+        color: rgb(204, 194, 194); 
+        text-decoration: none;
+    }
     
     .dropdown {
         padding-top: 12px;
@@ -54,4 +66,13 @@
 
     .nav-link:hover {
         color: #00bc8c;
+    }
+
+
+    @media screen and (min-width: 769px) and (max-width: 2200px) {
+     
+
+        .navbar { display: none; }  
+    
+       
     }

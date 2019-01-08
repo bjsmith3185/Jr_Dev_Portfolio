@@ -1,11 +1,12 @@
 
 
 $("#info-1").hide();
+// $("#info-1").show();
 $("#info-2").hide();
 $("#info-3").hide();
-$("#info-4").hide();
-$("#info-5").hide();
-$("#info-6").hide();
+
+// $("#summary-1").hide();
+
 
 
 
