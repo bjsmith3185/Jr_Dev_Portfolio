@@ -2,6 +2,7 @@
 <html>
 
 <head>
+
     <title>BJ Smith Portfolio</title>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -10,19 +11,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Smooth Scroll  -->
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
 
     <link rel='stylesheet' href='assets/css/style.css'>
-
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
 
 </head>
 
 <body>
     <div class="navbartop">
         <div class="navbar" id="navbar">
-
             <div id="navbarName" class="navbarName text-center">BJ Smith</div>
 
             <div class="navbar-title text-center" id="navbarLinks">
@@ -30,7 +28,6 @@
                 <a class="nav-top-link" id="nav-linkedin" href="https://www.linkedin.com/in/bjsmithdev">LINKEDIN</a>
                 <a class="nav-top-link" id="nav-gmail" href="mailto:bjsmithdev@gmail.com">GMAIL</a>
             </div>
-
 
             <div class="dropdown">
                 <span class="glyphicon glyphicon-menu-hamburger"></span>
@@ -41,7 +38,6 @@
                     <div><a class="nav-link" data-scroll href="#education">Education</a></div>
                     <div><a class="nav-link" data-scroll href="#skills">Skills</a></div>
                     <div><a class="nav-link" data-scroll href="#contact">Contact</a></div>
-
                 </div>
             </div>
 
@@ -49,136 +45,117 @@
     </div>
 
     <div class="portfolio">
-
-
-
+        <!-- HomePage  -->
         <div class="homepage" id="home">
-
             <div class="homepage-background">
-
                 <div class="homepage-name">BJ Smith</div>
 
                 <aside class="aside-link-area" id="aside">
-
                     <a id="first-link" href="https://github.com/bjsmith3185/">
                         <button class="button-border btn">
                             GITHUB
                         </button>
                     </a>
-
                     <a id="second-link" href="https://www.linkedin.com/in/bjsmithdev">
                         <button class="button-border btn">
                             LINKEDIN
                         </button>
                     </a>
-
                     <a id="third-link" href="mailto:bjsmithdev@gmail.com">
                         <button class="button-border btn">
                             GMAIL
                         </button>
                     </a>
-
                 </aside>
-
             </div>
-
         </div>
 
-
+        <!-- ProjectPage  -->
         <div class="projectspage" id="projects">
             <div class="projects-title text-center">Projects</div>
 
             <div class="projects-container">
+                <!-- first project  -->
+                <div class="project-container">
+                    <div class="project">
+                        <div class="image-container">
+                            <img src="assets/images/projects/Match_It.png" class="img-fluid image">
+                        </div>
 
-                <div class="project-container text-center" data-summary="summary-1" data-info="info-1">
+                        <div class="links text-center">
 
-                    <div class="project-box text-center" id="summary-1">
-
-                        <div id="project-1-image"></div>
-                        <div class="project-title-bottom text-center">Hover for details</div>
-                    </div>
-
-                    <div class="project-info" id="info-1">
-                        <div id="project-1-image-info">
-                            <div class="visit-site"><a target="_blank" class="visit-site-link" href="#">Visit
-                                    Site</a></div>
-
-                            <div class="github"><a target="_blank" class="github-link" href="#">View Github
-                                    Repo</a></div>
-
-                            <div class="tech-info">Node, Express, MongoDB</div>
+                            <div class="visit-site">
+                                <a target="_blank" class="visit-site-link" href="https://emmetts-matching.herokuapp.com/">Visit
+                                    Site</a>
+                            </div>
+                            <div class="github">
+                                <a target="_blank" class="github-link" href="https://github.com/bjsmith3185/Emmett-s_Matching_Game.git">View
+                                    Github
+                                    Repo</a>
+                            </div>
+                            <div class="tech-info">MongoDB, Express, React, Node</div>
                         </div>
                     </div>
-
+                    <div class="text-center project-title">Match It!</div>
                 </div>
-
-
                 <!-- second project  -->
+                <div class="project-container">
+                    <div class="project">
+                        <div class="image-container">
+                            <img src="assets/images/projects/AD_On.png" class="img-fluid image">
+                        </div>
 
-                <div class="project-container text-center" data-summary="summary-3" data-info="info-3">
-
-                    <div class="project-box text-center" id="summary-3">
-
-                        <div id="project-3-image"></div>
-                        <div class="project-title-bottom text-center">Hover for details</div>
-                    </div>
-
-                    <div class="project-info" id="info-3">
-                        <div id="project-3-image-info">
-                            <div class="visit-site"><a target="_blank" class="visit-site-link" href="#">Visit
-                                    Site</a></div>
-
-                            <div class="github"><a target="_blank" class="github-link" href="#">View Github
-                                    Repo</a></div>
-
-                            <div class="tech-info">Node, Express, MongoDB</div>
+                        <div class="links text-center">
+                            <div class="visit-site">
+                                <a target="_blank" class="visit-site-link" href="https://ad-on.herokuapp.com/">Visit
+                                    Site</a>
+                            </div>
+                            <div class="github">
+                                <a target="_blank" class="github-link" href="https://github.com/bjsmith3185/advertisement_addon.git">View
+                                    Github
+                                    Repo</a>
+                            </div>
+                            <div class="tech-info">MongoDB, Express, React, Node</div>
                         </div>
                     </div>
-
+                    <div class="text-center project-title">AD-On</div>
                 </div>
-
                 <!-- third project  -->
+                <div class="project-container">
+                    <div class="project">
+                        <div class="image-container">
+                            <img src="assets/images/projects/photo_share.png" class="img-fluid image">
+                        </div>
 
-                <div class="project-container text-center" data-summary="summary-2" data-info="info-2">
-
-                    <div class="project-box text-center" id="summary-2">
-
-                        <div id="project-2-image"></div>
-                        <div class="project-title-bottom text-center">Hover for details</div>
-                    </div>
-
-                    <div class="project-info" id="info-2">
-                        <div id="project-2-image-info">
-                            <div class="visit-site"><a target="_blank" class="visit-site-link" href="#">Visit
-                                    Site</a></div>
-
-                            <div class="github"><a target="_blank" class="github-link" href="#">View Github
-                                    Repo</a></div>
-
-                            <div class="tech-info">Node, Express, MongoDB</div>
+                        <div class="links text-center">
+                            <div class="visit-site">
+                                <a id="visit-site" target="_blank" class="visit-site-link" href="#">Project Under Construction</a>
+                            </div>
+                            <div class="github">
+                                <a target="_blank" class="github-link" href="https://github.com/bjsmith3185/photo_sharing.git">View
+                                    Github
+                                    Repo</a>
+                            </div>
+                            <div id="tech-info" class="tech-info">Firebase Auth, MongoDB, Express, React, Node</div>
                         </div>
                     </div>
-
+                    <div class="text-center project-title">Photo Share</div>
                 </div>
 
             </div>
-
         </div>
 
-
+        <!-- EducationPage  -->
         <div class="educationpage" id="education">
-
             <div class="education-area ">
-                <div class="education-title text-center">
-                    Education
-                </div>
+                <div class="education-title text-center">Education</div>
 
                 <div class="education-wrapper">
                     <div class="education-college education-4 college">
-                        UNC Charlotte, Charlotte NC
+                        Full Stack Web Development, Certificate
                     </div>
                     <div class="education-degree education-4 degree">
-                        Certification, Full Stack Development
+                        UNC Charlotte, Charlotte NC
                     </div>
                     <div class="education-date education-4 date">
                         Graduation Year: 2018
@@ -187,10 +164,10 @@
 
                 <div class="education-wrapper">
                     <div class="education-college education-3 college">
-                        Pfeiffer University, Charlotte NC
+                        Business Administration, MBA
                     </div>
                     <div class="education-degree education-3 degree">
-                        Master of Business Administration
+                        Pfeiffer University, Charlotte NC
                     </div>
                     <div class="education-date education-3 date">
                         Graduation Year: 2005
@@ -199,10 +176,10 @@
 
                 <div class="education-wrapper">
                     <div class="education-college education-2 college">
-                        UNC Charlotte, Charlotte NC
+                        Manufacturing Engineering, BS
                     </div>
                     <div class="education-degree education-2 degree">
-                        Bachelor of Science, Manufacturing Engineering
+                        UNC Charlotte, Charlotte NC
                     </div>
                     <div class="education-date education-2 date">
                         Graduation Year: 1998
@@ -211,94 +188,71 @@
 
                 <div class="education-wrapper">
                     <div class="education-college education-1 college">
-                        Stanly Community College, Albemarle NC
+                        Drafting & Design Engineering, AAS
                     </div>
                     <div class="education-degree education-1 degree">
-                        Associate in Applied Science, Drafting & Design Engineering
+                        Stanly Community College, Albemarle NC
                     </div>
                     <div class="education-date education-1 date">
                         Graduation Year: 1995
                     </div>
                 </div>
 
-
             </div>
-
         </div>
 
-
+        <!-- SkillsPage  -->
         <div class="skillspage" id="skills">
-
-            <div class="skills-title text-center">
-                Skills
-            </div>
+            <div class="skills-title text-center">Skills</div>
 
             <div class="skills-area text-center">
-
                 <div class="skill-row">
                     <div class="skill-image-area">
                         <img class="skill-image" src="assets/images/skills/handlebars_logo.png" alt="javascript" />
                     </div>
-
                     <div class="skill-image-area">
                         <img class="skill-image" src="assets/images/skills/js.png" alt="javascript" />
                     </div>
-
                     <div class="skill-image-area">
                         <img class="skill-image" src="assets/images/skills/html2.png" alt="css-html" />
                     </div>
-
                     <div class="skill-image-area">
                         <img class="skill-image" src="assets/images/skills/jquery2.png" alt="jquery" />
                     </div>
-
                     <div class="skill-image-area">
                         <img class="skill-image" src="assets/images/skills/node1.png" alt="node" />
                     </div>
-
                     <div class="skill-image-area">
                         <img class="skill-image" src="assets/images/skills/express2.png" alt="express" />
                     </div>
-
                 </div>
-
                 <!-- second skills row  -->
-
                 <div class="skill-row-2">
                     <div class="skill-image-area">
                         <img class="skill-image" src="assets/images/skills/css.png" alt="npm" />
                     </div>
-
                     <div class="skill-image-area">
                         <img class="skill-image" src="assets/images/skills/npm.png" alt="npm" />
                     </div>
-
                     <div class="skill-image-area">
                         <img class="skill-image" src="assets/images/skills/react.png" alt="react" />
                     </div>
-
                     <div class="skill-image-area">
                         <img class="skill-image" src="assets/images/skills/mongo.png" alt="mongo" />
                     </div>
-
                     <div class="skill-image-area">
                         <img class="skill-image" src="assets/images/skills/bootstrap.png" alt="bootstrap" />
                     </div>
-
                     <div class="skill-image-area">
                         <img class="skill-image" src="assets/images/skills/Octocat.png" alt="github" />
                     </div>
-
                 </div>
 
             </div>
 
-
+            <!-- ContactPage  -->
             <div class="contactpage" id="contact">
-
-                <div class="contact-title text-center">
-                    Contact Me
-                </div>
+                <div class="contact-title text-center">Contact Me</div>
 
                 <div class="contact resume-area text-center">
                     <a href="./resume/BJSresume010619.docx" target="_blank">
@@ -307,7 +261,6 @@
                 </div>
 
                 <div class="contact-sameline-area text-center">
-
                     <div class="contact-sameline contact github-area text-center">
                         <a href="https://github.com/bjsmith3185/" target="_blank">
                             <img src="assets/images/links/githubblackwhite.png" class="contact-img-github contact-link" />
@@ -330,13 +283,11 @@
 
             </div>
 
-
         </div>
 
         <a data-scroll href="#home" id="myBtn">Top</a>
 
         <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
-
         <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
         <script type='text/javascript' src='assets/javascript/new_layout.js'></script>
 </body>

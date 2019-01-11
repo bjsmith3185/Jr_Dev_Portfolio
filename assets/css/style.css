@@ -42,21 +42,20 @@ body {
 
 /* -------- navbar ------------ */
 
-.navbartop {
-    width: 100%;
-}
+    .navbartop {
+        width: 100%;
+    }
 
-.navbar {
-    margin-bottom: 0px;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    z-index: 2;
-    color: white;
-    background: #375a7f;
-    width: 100%;
-    height: 15px;
-    border-bottom: 2px solid black;
-  
+    .navbar {
+        margin-bottom: 0px;
+        position: fixed; 
+        top: 0; 
+        z-index: 2;
+        color: white;
+        background: #375a7f;
+        width: 100%;
+        height: 15px;
+        border-bottom: 2px solid black;
     }
 
     .navbarName {
@@ -85,8 +84,6 @@ body {
     .dropdown {
         padding-top: 12px;
         padding-left: 30px;
-        /* margin-top: 12px;
-        margin-left: 30px; */
         position: absolute;
         left: 0;
         top: 0;
@@ -187,7 +184,7 @@ body {
     
     .button-border:hover {
         background: #74f3d3;
-        color: #3498DB;
+        color: white;
     }
     
     .link-btn {
@@ -208,25 +205,23 @@ body {
     }
     
     #second-link {
-    
-    position: absolute;
-    left:75px;
-    top:-250px;
-    animation-name: second;
-    animation-delay: 1s;
-    animation-duration: 3s;  
-    animation-fill-mode: forwards;
+        position: absolute;
+        left:75px;
+        top:-250px;
+        animation-name: second;
+        animation-delay: 1s;
+        animation-duration: 3s;  
+        animation-fill-mode: forwards;
     }
     
     #third-link {
-    
-    position: absolute;
-    left:75px;
-    top:-250px;
-    animation-name: third;
-    animation-delay: 1s;
-    animation-duration: 3s;  
-    animation-fill-mode: forwards;
+        position: absolute;
+        left:75px;
+        top:-250px;
+        animation-name: third;
+        animation-delay: 1s;
+        animation-duration: 3s;  
+        animation-fill-mode: forwards;
     }
     
     @keyframes first {
@@ -248,7 +243,7 @@ body {
     /* ----------- project page ------------- */
 
     .projectspage {
-        height: 110%;
+        height: 130%;
         background: black;
     }
    
@@ -258,127 +253,120 @@ body {
         font-size: 50px;
     }
 
+
     .project-container {
-        margin: 15px auto;
+        height: 210px;
+        width: 185px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .project {
+        position: relative;
+        margin: 0px auto;
         margin-top: 20px;
         width: 185px;
         height: 185px;
         background: black;
-   }
+    }
 
-    .project-box {
+    .image-container {
+        width: 100%;
         height: 100%;
-        width: 100%;
-        background: white;
-    }
-
- 
-    #project-1-image {
-        width: 100%;
-        height: 90%;
-        background-image: url("../images/projects/AD_On.png");
-        background-size: 100% 100%;
-    }
-
-   
-
-    #project-2-image {
-        width: 100%;
-        height: 90%;
-        background-image: url("../images/projects/AD_On.png");
-        background-size: 100% 100%;
-    }
-
-    #project-3-image {
-        width: 100%;
-        height: 90%;
-        background-image: url("../images/projects/Match_It.png");
-        background-size: 100% 100%;
+        opacity: 1;
+        transition: .5s ease;
     }
 
 
-    .project-title-bottom {
-        background: black;
+    .links {
+        transition: .5s ease;
+        opacity: 0;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 6px solid #375a7f;
+        border-radius: 5px;
+    }
+
+    .project:hover .image {
+        opacity: 0.5;
+        filter: brightness(50%);
+    }
+    .project:hover .links {
+        opacity: 1;
+    }
+
+    .image {
+        display: block;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+
+    .project-title {
+        width: 100%;
         color: #00bc8c;
+        font-size: 15px;
     }
 
 
-    .project-info {
-        width: 100%;
-        height: 100%;
-        padding: 8px;
-        background: #375a7f;
+    .visit-site {
+        text-align: center;
+        margin-top: 18px;
+    }
+
+    .visit-site-link {
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .visit-site-link:hover {
+        color: rgb(197, 188, 188);
+        text-decoration: none;
+    }
+
+    .github {
+        margin-top: 18px;
+    }
+
+    .github-link {
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    .github-link:hover {
+        color: rgb(197, 188, 188);
+        text-decoration: none;
+    }
+
+    .tech-info {
+        margin-top: 20px;
+        font-size: 16px;
         color: #00bc8c;
-        border-radius: 4px;
+        font-weight: bold;
     }
 
-    #project-1-image-info {
-        width: 100%;
-        height: 100%;
-        background-size: 100% 100%;
-        position: relative;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/projects/AD_On.png");
+    /* temp styling  */
+    #visit-site {
+        color: red;
+        font-weight: bolder;
+        font-size: 22px;
     }
 
-    #project-2-image-info {
-        width: 100%;
-        height: 100%;
-        background-size: 100% 100%;
-        position: relative;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/projects/AD_On.png");
+    #tech-info {
+        margin-top: 27px;
     }
-
-    #project-3-image-info {
-        width: 100%;
-        height: 100%;
-        background-size: 100% 100%;
-        position: relative;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/projects/Match_It.png");
-    }
-
-
-                .visit-site {
-                    position: relative;
-                    top: 10px;
-                }
-
-                .visit-site-link {
-                    color: white;
-                    font-size: 16px;
-                    font-weight: bolder;
-                    text-decoration: none;
-                }
-
-                .visit-site-link:hover {
-                    color: rgb(211, 197, 197);
-                    font-weight: bold;
-                    text-decoration: none;
-                }
-
-                .github {
-                    margin-top: 30px;
-                }
-
-                .github-link {
-                
-                    color: white;
-                    font-size: 18px;
-                    font-weight: bolder;
-                    text-decoration: none;
-                }
-
-                .github-link:hover {
-                    color: rgb(211, 197, 197);
-                    font-weight: bold;
-                    text-decoration: none;
-                }
-
-                .tech-info {
-                    margin-top: 30px;
-                    color: white;
-                    font-size: 18px;
-                }
-
 
     /* ------------- education page ----------- */
 
@@ -408,11 +396,6 @@ body {
         color: white;
     }
     
-    .education-wrapper:hover {
-        background: #375a7f;
-        color: black;
-    }
-    
     .education-college {
         padding: 5px;
         font-size: 20px;
@@ -428,7 +411,7 @@ body {
     }
 
     .education-date {
-        font-size: 14px;
+        font-size: 12px;
         font-weight: bold;
         text-align: center;
         padding: 5px;
@@ -516,6 +499,16 @@ body {
 
     .nav-top-link { display: none; }
     
+    /* temp styling  */
+    #visit-site {
+        font-size: 18px;
+         margin-top: 0px;
+     }
+ 
+     #tech-info {
+         margin-top: 7px;
+         font-size: 11px;
+     }
 }
 
 
@@ -528,6 +521,17 @@ body {
 
     .projects-title {
         font-size: 60px;
+    }
+
+    /* temp styling  */
+    #visit-site {
+       font-size: 18px;
+        margin-top: 0px;
+    }
+
+    #tech-info {
+        margin-top: 7px;
+        font-size: 13px;
     }
 
     /* ------------ skillspage ---------------- */
@@ -599,31 +603,25 @@ body {
     .projects-container {
         text-align: center;
         margin-top: 100px;
+        
     }
- 
+
     .project-container {
-        display: inline-block;
-        margin-left: 15px;
-        margin-right: 15px;
-        width: 200px;
-        height: 200px;
+        display:inline-block;
+        height: 250px;
+        width: 225px;
+        margin: 13px;
+        text-align: center;
+    }
+
+    .project {
+        position: relative;
+        margin: 0px auto;
+        width: 225px;
+        height: 225px;
         background: black;
-     }
- 
-    .project-box {
-        height: 100%;
-        width: 100%;
-        background: white;
     }
-    
-    .project-info {
-     width: 100%;
-     height: 100%;
-     padding: 8px;
-     background: #375a7f;
-     color: #00bc8c;
-     border-radius: 4px;
-    }
+
 
     /* ------------- education page ----------- */
 
@@ -730,36 +728,46 @@ body {
      
     .projects-title {
         font-size: 90px;
-
     }
-
+    
     .projects-container {
         text-align: center;
         margin-top: 100px;
     }
 
-   .project-container {
-       display: inline-block;
-       margin: 25px 20px;
-       width: 300px;
-       height: 300px;
-   }
+    .project-container {
+        display:inline-block;
+        height: 315px;
+        width: 290px;
+        margin: 25px;
+    }
 
-   .project-box {
-       height: 100%;
-       width: 100%;
-       background: white;
-   }
- 
-   .project-info {
-        width: 100%;
-        height: 100%;
-        padding: 8px;
-        background: #375a7f;
-        color: #00bc8c;
-        border-radius: 4px;
-   }
+    .project {
+        width: 290px;
+        height: 290px;
+    }
 
+
+    .visit-site {
+        margin-top: 30px;
+    }
+
+    .visit-site-link {
+        font-size: 22px;
+    }
+
+    .github {
+        margin-top: 45px;
+    }
+
+    .github-link {
+        font-size: 22px;
+    }
+
+    .tech-info {
+        margin-top: 60px;
+        font-size: 20px;
+    }
 
    /* ------------- education page ----------- */
 
@@ -805,35 +813,35 @@ body {
 
 /* ------------ skillspage ---------------- */
 
-.skillspage {
-    height: 100%;
-}
+    .skillspage {
+        height: 100%;
+    }
 
-.skills-title {
-    margin-top: 25px;
-    font-size: 90px;
-    font-weight: bolder;
-}
+    .skills-title {
+        margin-top: 25px;
+        font-size: 90px;
+        font-weight: bolder;
+    }
 
-.skills-area {
-    margin-top: 30px;
-    padding-bottom: 200px;
-}
+    .skills-area {
+        margin-top: 30px;
+        padding-bottom: 200px;
+    }
 
-.skill-row,
-.skill-row-2 {
-    margin: 35px;
-    margin-top: 20px;
-    text-align: center;
-}
+    .skill-row,
+    .skill-row-2 {
+        margin: 35px;
+        margin-top: 20px;
+        text-align: center;
+    }
 
-.skill-image-area {
-    display: inline-block;
-    height: 120px;
-    width: 120px;
-    text-align:center;
-    margin: 15px;
-}
+    .skill-image-area {
+        display: inline-block;
+        height: 120px;
+        width: 120px;
+        text-align:center;
+        margin: 15px;
+    }
 
  /* ------------- contact page ------------- */
 
