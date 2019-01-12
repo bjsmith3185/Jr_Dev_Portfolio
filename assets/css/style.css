@@ -518,6 +518,10 @@ body {
 
 
      /* ----------- project page ------------- */
+     .projectspage {
+        height: 140%;
+        background: black;
+    }
 
     .projects-title {
         font-size: 60px;
