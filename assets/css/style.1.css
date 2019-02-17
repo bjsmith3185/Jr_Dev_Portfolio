@@ -69,18 +69,13 @@ body {
         font-weight: bolder;
     }
 
-
-    .nav-top-link { display: none; }
-
-    /* .nav-top-link {
+    .nav-top-link {
         color: white;
         margin-left: 10px;
         margin-right: 10px;
         font-weight: bold;
         font-size: 16px;
-    } */
-
-
+    }
     .nav-top-link:hover {
         color: rgb(204, 194, 194); 
         text-decoration: none;
@@ -150,25 +145,8 @@ body {
         position: absolute;
     }
 
+
     .homepage-name {
-        width: 250px;
-        font-size: 50px;
-        padding: 15px;
-
-        /* width: 400px; */
-        margin: 0 auto;
-        margin-top: 300px;
-        /* font-size: 60px; */
-        color: white;
-        font-weight: bolder;
-        /* padding: 20px; */
-        background: #00bc8c;
-        border-radius: 8px;
-        text-align: center;
-    }
-
-
-    /* .homepage-name {
         width: 400px;
         margin: 0 auto;
         margin-top: 300px;
@@ -179,13 +157,10 @@ body {
         background: #00bc8c;
         border-radius: 8px;
         text-align: center;
-    } */
+    }
 
 
 /* asside link box  */
-
- #aside { display: none; }
-
     .aside-link-area {
         position: absolute;
         top:0px;
@@ -268,7 +243,7 @@ body {
     /* ----------- project page ------------- */
 
     .projectspage {
-        height: 170%;
+        height: 120%;
         background: black;
     }
       
@@ -411,13 +386,8 @@ body {
     /* ------------- education page ----------- */
 
     .educationpage {
-        height: 100%;
-    }
-
-
-    /* .educationpage {
         height: 120%;
-    } */
+    }
 
     .education-area {
         margin-top: 10px;
@@ -478,7 +448,7 @@ body {
 
     .skills-area {
         margin-top: 30px;
-        padding-bottom: 10px;
+        padding-bottom: 120px;
     }
 
     .skill-row,
@@ -503,7 +473,7 @@ body {
     /* ------------- contact page ------------- */
 
     .contactpage {
-        height: 90%;
+        height: 100%;
     }
 
     .contact-title {
@@ -534,24 +504,23 @@ body {
 
 @media screen and (min-width: 0px) and (max-width: 423px) {
 
-   
- /* #aside { display: none; } */
+    #aside { display: none; }
 
-    /* .homepage-name {
+    .homepage-name {
         width: 250px;
         font-size: 50px;
         padding: 15px;
-    } */
+    }
 
-    /* .projectspage {
+    .projectspage {
         height: 1200px;
-    } */
+    }
 
-    /* .educationpage {
+    .educationpage {
         height: 100%;
-    } */
+    }
 
-    /* .nav-top-link { display: none; } */
+    .nav-top-link { display: none; }
      
 }
 
@@ -560,27 +529,6 @@ body {
 @media screen and (min-width: 424px) and (max-width: 768px) {
     #aside { display: none; }
 
-
- .nav-top-link {
-        color: white;
-        margin-left: 10px;
-        margin-right: 10px;
-        font-weight: bold;
-        font-size: 16px;
-    }
-
-.homepage-name {
-        width: 400px;
-        margin: 0 auto;
-        margin-top: 300px;
-        font-size: 60px;
-        color: white;
-        font-weight: bolder;
-        padding: 20px;
-        background: #00bc8c;
-        border-radius: 8px;
-        text-align: center;
-    }
 
      /* ----------- project page ------------- */
      .projectspage {
@@ -592,16 +540,8 @@ body {
         font-size: 60px;
     }
 
-   /* ----------- education page ------------- */
-    .educationpage {
-        height: 120%;
-    }
   
     /* ------------ skillspage ---------------- */
-
-    .skillspage {
-        height: 100%;
-    }
 
     .skills-title {
         margin-top: 15px;
@@ -636,12 +576,8 @@ body {
 
      /* ------------- contact page ------------- */
 
-.contactpage {
-    height: 100%;
-}
-
     .contact-title {
-        margin-top: 5px;
+        margin-top: 25px;
         font-size: 60px;
         font-weight: bolder;
     }
