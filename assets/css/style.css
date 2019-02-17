@@ -512,6 +512,14 @@ body {
         padding: 15px;
     }
 
+    .projectspage {
+        height: 130%;
+    }
+
+    .educationpage {
+        height: 100%;
+    }
+
     .nav-top-link { display: none; }
      
 }
