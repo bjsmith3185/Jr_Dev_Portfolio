@@ -243,12 +243,10 @@ body {
     /* ----------- project page ------------- */
 
     .projectspage {
-        height: 100%;
+        height: 140%;
         background: black;
     }
-
-    
-   
+      
     .projects-title {
         color: #00bc8c;
         font-weight: bolder;
