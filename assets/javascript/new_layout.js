@@ -3,13 +3,13 @@ var scroll = new SmoothScroll('a[href*="#"]', {
     speed: 1000
 });
 
-window.onload = function () { 
-    hideTopBtn() 
+window.onload = function () {
+    hideTopBtn()
     hideNavName()
 };
 
-window.onscroll = function () { 
-    showTopButton() 
+window.onscroll = function () {
+    showTopButton()
     scrollNavName()
 };
 
@@ -39,3 +39,12 @@ function scrollNavName() {
         document.getElementById("navbarLinks").style.display = "block";
     }
 }
+
+
+$(".nav-link").on("click", function () {
+    $(".dropdown-content").css("display", "none")
+})
+
+$(".glyphicon-menu-hamburger").on("click", function () {
+    $(".dropdown-content").css("display", "block")
+})
