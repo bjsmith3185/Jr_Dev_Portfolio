@@ -243,26 +243,14 @@ body {
     /* ----------- project page ------------- */
 
     .projectspage {
-        height: 100%;
+        height: 130%;
         background: black;
     }
-
-    
    
     .projects-title {
         color: #00bc8c;
         font-weight: bolder;
         font-size: 50px;
-    }
-
-    .projects-container {
-        text-align: center;
-        margin-top: 25px;
-    }
-
-    .projects-line-a,
-    .projects.line-b {
-        display: block;
     }
 
 
@@ -515,7 +503,17 @@ body {
     }
 
     .nav-top-link { display: none; }
-     
+    
+    /* temp styling  */
+    #visit-site {
+        font-size: 18px;
+         margin-top: 0px;
+     }
+ 
+     #tech-info {
+         margin-top: 7px;
+         font-size: 11px;
+     }
 }
 
 
@@ -526,7 +524,7 @@ body {
 
      /* ----------- project page ------------- */
      .projectspage {
-        height: 130%;
+        height: 150%;
         background: black;
     }
 
@@ -534,7 +532,17 @@ body {
         font-size: 60px;
     }
 
-  
+    /* temp styling  */
+    #visit-site {
+       font-size: 18px;
+        margin-top: 0px;
+    }
+
+    #tech-info {
+        margin-top: 7px;
+        font-size: 13px;
+    }
+
     /* ------------ skillspage ---------------- */
 
     .skills-title {
@@ -592,23 +600,34 @@ body {
     }
     
     .projects-title {
+        color: #00bc8c;
+        font-weight: bolder;
         font-size: 70px;
     }
 
-    .projects-top,
-    .projects-bottom {
-        display: block;
-    }
-    
-    .projects-line-a,
-    .projects-line-b {
-        display: inline-block;
-        margin-left: 50px;
-         margin-right: 50px;
+    .projects-container {
+        text-align: center;
+        margin-top: 100px;
+        
     }
 
-    .projects-container {
-        margin-top: 40px;
+    .project-container {
+        display:inline-block;
+        height: 250px;
+        width: 225px;
+
+
+
+        margin: 43px;
+        text-align: center;
+    }
+
+    .project {
+        position: relative;
+        margin: 0px auto;
+        width: 225px;
+        height: 225px;
+        background: black;
     }
 
     .github {
@@ -624,6 +643,9 @@ body {
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
     #aside { display: none; }
+
+    
+
 
     /* ------------- education page ----------- */
 
@@ -716,39 +738,26 @@ body {
 
 @media screen and (min-width: 830px) and (max-width: 1024px) {
 
-     /* projects page only */
-     .projectspage {
-        height: 100%;
-    }
-    
-    .projects-title {
-       font-size: 70px;
-    }
-
-    .projects-top,
-    .projects-bottom {
-        display: block;
-    }
-
-    
-    .projects-line-a,
-    .projects-line-b {
-        display: inline-block;
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-
-    .projects-container {
-        text-align: center;
-        margin-top: 15px;
-        
-    }
-
-    .project-container {
+    /* .project-container {
+        display:inline-block;
         height: 350px;
         width: 325px;
+        margin: 23px;
+        text-align: center;
+    } */
+
+    .project-container {
+        display:inline-block;
+        height: 350px;
+        width: 325px;
+
+        /* margin: 43px; */
+        margin-top: 35px;
+        margin-left: 30px;
+        margin-right: 30px;
         text-align: center;
     }
+
 
     .project {
         position: relative;
@@ -756,14 +765,6 @@ body {
         width: 325px;
         height: 325px;
         background: black;
-    }
-
-    .github {
-        margin-top: 50px;
-    }
-
-    .tech-info {
-        margin-top: 40px;
     }
 
     .visit-site-link {
@@ -783,42 +784,24 @@ body {
         margin-top: 60px;
         font-size: 20px;
     }
-   
+
+    
 
 }
 
 
 @media screen and (min-width: 1025px) and (max-width: 1400px) {
 
-      /* projects page only */
-      .projectspage {
-        height: 110%;
-    }
-    
-    .projects-title {
-       font-size: 70px;
-    }
-
-    .projects-top,
-    .projects-bottom {
-        display: block;
-    }
-
-    
-    .projects-line-a,
-    .projects-line-b {
-        display: inline-block;
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-
-    .projects-container {
-        margin-top: 10px;
-    }
-
     .project-container {
+        display:inline-block;
         height: 350px;
         width: 325px;
+
+        /* margin: 43px; */
+        margin-top: 35px;
+        margin-left: 80px;
+        margin-right: 80px;
+        text-align: center;
     }
 
     .project {
@@ -826,174 +809,66 @@ body {
         margin: 0px auto;
         width: 325px;
         height: 325px;
+        background: black;
     }
 
-    .github {
-        margin-top: 50px;
-    }
 
-    .tech-info {
-        margin-top: 40px;
-    }
 
-    .visit-site-link {
-        font-size: 30px;
-    }
-
-    .github {
-        margin-top: 90px;
-    }
-
-    .github-link {
-        font-size: 30px;
-    }
-
-    .tech-info {
-        margin-top: 60px;
-        font-size: 20px;
-    }
 
 }
 
 
 @media screen and (min-width: 1401px) and (max-width: 1700px) {
 
-      /* projects page only */
-      .projectspage {
-        height: 110%;
-    }
-    
-    .projects-title {
-        font-size: 70px;
-    }
-
-    .projects-top,
-    .projects-bottom {
-        display: block;
-    }
-
-    
-    .projects-line-a,
-    .projects-line-b {
-        display: inline-block;
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-
-    .projects-container {
-        text-align: center;
-        margin-top: 10px;
-    }
-
     .project-container {
-        height: 350px;
-        width: 325px;
+        display:inline-block;
+        height: 450px;
+        width: 425px;
+
+        /* margin: 43px; */
+        margin-top: 35px;
+        margin-left: 100px;
+        margin-right: 100px;
+        text-align: center;
     }
 
     .project {
         position: relative;
         margin: 0px auto;
-        width: 325px;
-        height: 325px;
+        width: 425px;
+        height: 425px;
         background: black;
     }
 
-    .github {
-        margin-top: 50px;
-    }
 
-    .tech-info {
-        margin-top: 40px;
-    }
 
-    .visit-site-link {
-        font-size: 30px;
-    }
-
-    .github {
-        margin-top: 90px;
-    }
-
-    .github-link {
-        font-size: 30px;
-    }
-
-    .tech-info {
-        margin-top: 60px;
-        font-size: 20px;
-    }
 
 }
 
 @media screen and (min-width: 1701px) and (max-width: 2200px) {
 
-     /* projects page only */
-     .projectspage {
-        height: 100%;
-    }
-    
-    .projects-title {
-        color: #00bc8c;
-        font-weight: bolder;
-        font-size: 70px;
-    }
-
-    .projects-top,
-    .projects-bottom {
-       display: inline-block;
-       margin-top: 130px;
-    }
-
-    
-    .projects-line-a,
-    .projects-line-b {
-        display: inline-block;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .projects-container {
-        text-align: center;
-    }
-
     .project-container {
-        height: 350px;
-        width: 325px;
+        display:inline-block;
+        height: 425px;
+        width: 400px;
+
+        /* margin: 43px; */
+        margin-top: 100px;
+        margin-left: 25px;
+        margin-right: 25px;
         text-align: center;
     }
 
     .project {
         position: relative;
         margin: 0px auto;
-        width: 325px;
-        height: 325px;
+        width: 400px;
+        height: 400px;
         background: black;
     }
 
-    .github {
-        margin-top: 50px;
-    }
 
-    .tech-info {
-        margin-top: 40px;
-    }
 
-    .visit-site-link {
-        font-size: 30px;
-    }
-
-    .github {
-        margin-top: 90px;
-    }
-
-    .github-link {
-        font-size: 30px;
-    }
-
-    .tech-info {
-        margin-top: 60px;
-        font-size: 20px;
-    }
 
 }
 
@@ -1002,14 +877,14 @@ body {
 
     .navbartop { display: none; }  
 
-    /* home page  */
+/* home page  */
 
     .homepage-name {
         width: 500px;
         font-size: 100px;
     }
 
-    /* projects page  */
+  /* projects page  */
 
      
     .projects-title {
@@ -1018,8 +893,25 @@ body {
     
     .projects-container {
         text-align: center;
-        margin-top: 15px;
+        margin-top: 100px;
     }
+
+    /* .project-container {
+        display:inline-block;
+        height: 315px;
+        width: 290px;
+        margin: 25px; */
+
+        /* margin-top: 25px;
+        margin-left: 55px;
+        margin-right: 55px; */
+    /* }
+
+    .project {
+        width: 290px;
+        height: 290px;
+    } */
+
 
     .visit-site {
         margin-top: 30px;
@@ -1136,6 +1028,11 @@ body {
         text-align: center;
         margin: 0 150px;
     }
+
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 2200px) {
 
 }
 
