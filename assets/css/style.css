@@ -1,5 +1,5 @@
 
-/* top button  */
+/* ---------- top button -------  */
 
 #myBtn {
     display: none;
@@ -20,16 +20,13 @@
     padding-top: 10px;
     padding-left:10px;
     text-decoration: none;
-  }
+}
   
-  #myBtn:hover {
+#myBtn:hover {
     background-color: #555;
-  }
+}
 
-
-
-
-/* main  */
+/* -------- main -----------  */
 body, html {
     height: 100%;
     font-family: 'Open Sans', sans-serif;
@@ -39,568 +36,489 @@ body {
     background: black;
 }
 
-
 /* -------- navbar ------------ */
 
-    .navbartop {
-        width: 100%;
-    }
+.navbartop {
+    width: 100%;
+}
 
-    .navbar {
-        margin-bottom: 0px;
-        position: fixed; 
-        top: 0; 
-        z-index: 2;
-        color: white;
-        background: #375a7f;
-        width: 100%;
-        height: 15px;
-        border-bottom: 2px solid black;
-    }
+.navbar {
+    margin-bottom: 0px;
+    position: fixed; 
+    top: 0; 
+    z-index: 2;
+    color: white;
+    background: #375a7f;
+    width: 100%;
+    height: 15px;
+    border-bottom: 2px solid black;
+}
 
-    .navbarName {
-        font-size: 30px;
-        font-weight: bolder;
-        text-align: center;
-    }
+.navbarName {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
 
-    .navbar-title {
-        font-size: 30px;
-        font-weight: bolder;
-    }
+.navbar-title {
+    font-size: 30px;
+    font-weight: bolder;
+}
 
+.nav-top-link { display: none; }
 
-    .nav-top-link { display: none; }
-
-    /* .nav-top-link {
-        color: white;
-        margin-left: 10px;
-        margin-right: 10px;
-        font-weight: bold;
-        font-size: 16px;
-    } */
-
-
-    .nav-top-link:hover {
-        color: rgb(204, 194, 194); 
-        text-decoration: none;
-    }
+.nav-top-link:hover {
+    color: rgb(204, 194, 194); 
+    text-decoration: none;
+}
     
-    .dropdown {
-        padding-top: 12px;
-        padding-left: 30px;
-        position: absolute;
-        left: 0;
-        top: 0;
-        display: inline-block;
-        font-size: 18px;
-    }
+.dropdown {
+    padding-top: 12px;
+    padding-left: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    font-size: 18px;
+}
 
-    .glyphicon {
-        font-size: 20px;
-    }
-    .glyphicon-menu-hamburger:hover {
-        color: rgb(171, 171, 245);
-    }
+.glyphicon {
+    font-size: 20px;
+}
+
+.glyphicon-menu-hamburger:hover {
+    color: rgb(171, 171, 245);
+}
     
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #303030;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        padding: 12px 16px;
-        z-index: 1;
-        border-radius: 5px;
-    }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #303030;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 5px;
+}
     
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
-    .nav-link:hover {
-        color: #00bc8c;
-    }
+.nav-link:hover {
+    color: #00bc8c;
+}
 
+.portfolio {
+    height: 100%;
+}
+
+/* -------- home page ------------- */
+
+.homepage {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.homepage-background {
+    background-image: url('../images/background/keyboard.jpg');
+    height: 100%;
+    width: 100%;
     
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
 
-
-
-    .portfolio {
-        height: 100%;
-    }
-
-
-    /* -------- home page ------------- */
-
-    .homepage {
-        height: 100%;
-        width: 100%;
-        position: relative;
-    }
-
-    .homepage-background {
-        background-image: url('../images/keyboard.jpg');
-        height: 100%;
-        width: 100%;
-      
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: absolute;
-    }
-
-    .homepage-name {
-        width: 250px;
-        font-size: 50px;
-        padding: 15px;
-
-        /* width: 400px; */
-        margin: 0 auto;
-        margin-top: 300px;
-        /* font-size: 60px; */
-        color: white;
-        font-weight: bolder;
-        /* padding: 20px; */
-        background: #00bc8c;
-        border-radius: 8px;
-        text-align: center;
-    }
-
-
-    /* .homepage-name {
-        width: 400px;
-        margin: 0 auto;
-        margin-top: 300px;
-        font-size: 60px;
-        color: white;
-        font-weight: bolder;
-        padding: 20px;
-        background: #00bc8c;
-        border-radius: 8px;
-        text-align: center;
-    } */
-
+.homepage-name {
+    width: 250px;
+    font-size: 50px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 300px;
+    color: white;
+    font-weight: bolder;
+    background: #00bc8c;
+    border-radius: 8px;
+    text-align: center;
+}
 
 /* asside link box  */
 
- #aside { display: none; }
+#aside { display: none; }
 
-    .aside-link-area {
-        position: absolute;
-        top:0px;
-        left: 0px;
-        height: 100%;
-        width: 300px;
-        z-index: 1;
-        overflow: hidden;
-    }
+.aside-link-area {
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 100%;
+    width: 300px;
+    z-index: 1;
+    overflow: hidden;
+}
     
+.button-border {
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    background: #00bc8c;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.button-border:hover {
+    background: #74f3d3;
+    color: white;
+}
+
+.link-btn {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+#first-link {
+    position: absolute;
+    left:75px;
+    top:-250px;
+    animation-name: first;
+    animation-delay: 1s;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+
+#second-link {
+    position: absolute;
+    left:75px;
+    top:-250px;
+    animation-name: second;
+    animation-delay: 1s;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+
+#third-link {
+    position: absolute;
+    left:75px;
+    top:-250px;
+    animation-name: third;
+    animation-delay: 1s;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+
+@keyframes first {
+    from {top: 0px;}
+    to {top: 500px}
+}
+
+@keyframes second {
+    from {top: 0px;}
+    to {top: 350px}
+}
+
+@keyframes third {
+    from {top: 0px;}
+    to {top: 200px}
+}
+
+/* -------- project page ------------- */
+
+.projectspage {
+    height: 170%;
+    background: black;
+    padding-top: 30px;
+}
     
-    .button-border {
-        border-radius: 10px;
-        height: 50px;
-        width: 100px;
-        background: #00bc8c;
-        color: white;
-        font-weight: bolder;
-        font-size: 16px;
-    }
-    
-    .button-border:hover {
-        background: #74f3d3;
-        color: white;
-    }
-    
-    .link-btn {
-        position: absolute;
-        top: 100px;
-        left: 50px;
-    }
-    
-    #first-link {
-              
-        position: absolute;
-        left:75px;
-        top:-250px;
-        animation-name: first;
-        animation-delay: 1s;
-        animation-duration: 3s;  
-        animation-fill-mode: forwards;
-    }
-    
-    #second-link {
-        position: absolute;
-        left:75px;
-        top:-250px;
-        animation-name: second;
-        animation-delay: 1s;
-        animation-duration: 3s;  
-        animation-fill-mode: forwards;
-    }
-    
-    #third-link {
-        position: absolute;
-        left:75px;
-        top:-250px;
-        animation-name: third;
-        animation-delay: 1s;
-        animation-duration: 3s;  
-        animation-fill-mode: forwards;
-    }
-    
-    @keyframes first {
-        from {top: 0px;}
-        to {top: 500px}
-    }
-    
-    @keyframes second {
-        from {top: 0px;}
-        to {top: 350px}
-    }
-    
-    @keyframes third {
-        from {top: 0px;}
-        to {top: 200px}
-    }
-       
+.projects-title {
+    color: #00bc8c;
+    font-weight: bolder;
+    font-size: 50px;
+}
 
-    /* ----------- project page ------------- */
+.projects-container {
+    text-align: center;
+    margin-top: 25px;
+}
 
-    .projectspage {
-        height: 170%;
-        background: black;
-    }
-      
-    .projects-title {
-        color: #00bc8c;
-        font-weight: bolder;
-        font-size: 50px;
-    }
+.projects-line-a,
+.projects.line-b {
+    display: block;
+}
 
-    .projects-container {
-        text-align: center;
-        margin-top: 25px;
-    }
+.project-container {
+    height: 210px;
+    width: 185px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    .projects-line-a,
-    .projects.line-b {
-        display: block;
-    }
+.project {
+    position: relative;
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 185px;
+    height: 185px;
+    background: black;
+}
 
+.image-container {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: .5s ease;
+}
 
-    .project-container {
-        height: 210px;
-        width: 185px;
-        margin-top: 20px;
-        margin-bottom: 40px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.links {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 6px solid #375a7f;
+    border-radius: 5px;
+}
 
+.project:hover .image {
+    opacity: 0.5;
+    filter: brightness(50%);
+    border: none;
+}
+.project:hover .links {
+    opacity: 1;
+}
 
-    .project {
-        position: relative;
-        margin: 0px auto;
-        margin-top: 20px;
-        width: 185px;
-        height: 185px;
-        background: black;
+.image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    object-fit: contain;
+    border: 1px solid #375a7f;
+    border-radius: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
 
-      
-    }
+.project-title {
+    width: 100%;
+    color: #00bc8c;
+    font-size: 15px;
+}
 
-    .image-container {
-        width: 100%;
-        height: 100%;
-        opacity: 1;
-        transition: .5s ease;
+.visit-site {
+    text-align: center;
+    margin-top: 18px;
+}
 
-        
-        /* border: 1px solid white; */
-    }
+.visit-site-link {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+}
 
+.visit-site-link:hover {
+    color: rgb(197, 188, 188);
+    text-decoration: none;
+}
 
-    .links {
-        transition: .5s ease;
-        opacity: 0;
+.github {
+    margin-top: 18px;
+}
 
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: 6px solid #375a7f;
-        border-radius: 5px;
-    }
+.github-link {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
 
-    .project:hover .image {
-        opacity: 0.5;
-        filter: brightness(50%);
+.github-link:hover {
+    color: rgb(197, 188, 188);
+    text-decoration: none;
+}
 
-        border: none;
-    }
-    .project:hover .links {
-        opacity: 1;
-    }
+.tech-info {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #00bc8c;
+    font-weight: bold;
+}
 
-    .image {
-        display: block;
-        width: 100%;
-        height: 100%;
-        backface-visibility: hidden;
-        object-fit: contain;
+/* -------- education page ------------- */
 
-        border: 1px solid #375a7f;
-        border-radius: 4px;
+.educationpage {
+    height: 100%;
+    padding-top: 30px;
+}
 
-        padding-left: 3px;
-        padding-right: 3px;
-    }
+.education-area {
+    margin-top: 10px;
+    padding: 5px;
+}
 
-    .project-title {
-        width: 100%;
-        color: #00bc8c;
-        font-size: 15px;
-    }
+.education-title {
+    color: #00bc8c;
+    font-weight: bolder;
+    font-size: 50px;
+}
 
+.education-wrapper {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: #375a7f;
+    color: white;
+}
 
-    .visit-site {
-        text-align: center;
-        margin-top: 18px;
-    }
+.education-college {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
 
-    .visit-site-link {
-        color: white;
-        font-size: 18px;
-        text-align: center;
-        font-weight: bold;
-        text-decoration: none;
-    }
+.education-degree {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
 
-    .visit-site-link:hover {
-        color: rgb(197, 188, 188);
-        text-decoration: none;
-    }
+.education-date {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
 
-    .github {
-        margin-top: 18px;
-    }
+/* -------- skills page ------------- */
 
-    .github-link {
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        text-decoration: none;
-    }
+.skillspage {
+    height: 100%;
+    padding-top: 30px;
+}
 
-    .github-link:hover {
-        color: rgb(197, 188, 188);
-        text-decoration: none;
-    }
+.skills-title {
+    margin-top: 15px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #00bc8c;
+}
 
-    .tech-info {
-        margin-top: 20px;
-        font-size: 16px;
-        color: #00bc8c;
-        font-weight: bold;
-    }
+.skills-area {
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
 
-    
+.skill-row,
+.skill-row-2 {
+    display: inline-block;
+    margin: 15px;
+}
 
-    /* ------------- education page ----------- */
+.skill-image-area {
+    height: 70px;
+    width: 70px;
+    text-align:center;
+    margin: 5px;
+}
 
-    .educationpage {
-        height: 100%;
-    }
+.skill-image {
+    height: 100%;
+    width: 100%;
+}
 
+/* -------- contact page ------------- */
 
-    /* .educationpage {
-        height: 120%;
-    } */
+.contactpage {
+    height: 90%;
+    padding-top: 30px;
+}
 
-    .education-area {
-        margin-top: 10px;
-        padding: 5px;
-    }
-    
-    .education-title {
-        color: #00bc8c;
-        font-weight: bolder;
-        font-size: 50px;
-    }
-    
-    .education-wrapper {
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 8px;
-        border: 1px solid black;
-        border-radius: 4px;
-        background: #375a7f;
-        color: white;
-    }
-    
-    .education-college {
-        padding: 5px;
-        font-size: 20px;
-        font-weight: bold;
-        text-align: center;
-    }
+.contact-title {
+    margin-top: 25px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #00bc8c;
+}
 
-    .education-degree {
-        font-size: 16px;
-        font-weight: bold;
-        text-align: center;
-        padding: 5px;
-    }
+.contact {
+    width: 100px;
+    height: 100px;
+    margin: 30px auto;
+}
 
-    .education-date {
-        font-size: 12px;
-        font-weight: bold;
-        text-align: center;
-        padding: 5px;
-    }
+.contact-link {
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+}
 
-
-    /* ------------ skillspage ---------------- */
-
-    .skillspage {
-        height: 100%;
-    }
-
-    .skills-title {
-        margin-top: 15px;
-        font-size: 50px;
-        font-weight: bolder;
-        color: #00bc8c;
-    }
-
-    .skills-area {
-        margin-top: 30px;
-        padding-bottom: 10px;
-    }
-
-    .skill-row,
-    .skill-row-2 {
-        display: inline-block;
-        margin: 15px;
-    }
-
-    .skill-image-area {
-        height: 70px;
-        width: 70px;
-        text-align:center;
-        margin: 5px;
-    }
-
-    .skill-image {
-        height: 100%;
-        width: 100%;
-    }
-
-
-    /* ------------- contact page ------------- */
-
-    .contactpage {
-        height: 90%;
-    }
-
-    .contact-title {
-        margin-top: 25px;
-        font-size: 50px;
-        font-weight: bolder;
-        color: #00bc8c;
-    }
-
-    .contact {
-        width: 100px;
-        height: 100px;
-        margin: 30px auto;
-    }
-
-    .contact-link {
-        width: 100%;
-        height: 100%;
-        opacity: .8;
-    }
-
-    .contact-link:hover {
-        opacity: 1;
-    }
-
+.contact-link:hover {
+    opacity: 1;
+}
 
 /* =========================================================== */
 
 @media screen and (min-width: 0px) and (max-width: 423px) {
-
    
- /* #aside { display: none; } */
+    #aside { display: none; }
 
-    /* .homepage-name {
+    /* -------- home page ------------- */
+    .homepage-name {
         width: 250px;
         font-size: 50px;
         padding: 15px;
-    } */
+    }
 
-    /* .projectspage {
+    .projectspage {
         height: 1200px;
-    } */
+    }
 
-    /* .educationpage {
+    .educationpage {
         height: 100%;
-    } */
+    }
 
-    /* .nav-top-link { display: none; } */
-     
 }
 
-
-
 @media screen and (min-width: 424px) and (max-width: 768px) {
-    #aside { display: none; }
 
+    #aside { display: block; }
 
- .nav-top-link {
-        color: white;
-        margin-left: 10px;
-        margin-right: 10px;
-        font-weight: bold;
-        font-size: 16px;
-    }
-
-.homepage-name {
-        width: 400px;
-        margin: 0 auto;
-        margin-top: 300px;
-        font-size: 60px;
-        color: white;
-        font-weight: bolder;
-        padding: 20px;
-        background: #00bc8c;
-        border-radius: 8px;
-        text-align: center;
-    }
-
-     /* ----------- project page ------------- */
+     /* -------- project page ------------- */
      .projectspage {
         height: 130%;
-        background: black;
     }
 
     .projects-title {
         font-size: 60px;
     }
 
-   /* ----------- education page ------------- */
+    /* -------- education page ------------- */
     .educationpage {
         height: 120%;
     }
-  
-    /* ------------ skillspage ---------------- */
 
+    .education-title {
+        font-size: 60px;
+    }
+  
+    /* -------- skills page ------------- */
     .skillspage {
         height: 100%;
     }
@@ -625,22 +543,10 @@ body {
         margin-top: 10px;
     }
 
-
-    /* ------------- education page ----------- */
-
-    .educationpage {
+    /* -------- contact page ------------- */
+    .contactpage {
         height: 100%;
     }
-
-    .education-title {
-        font-size: 60px;
-    }
-
-     /* ------------- contact page ------------- */
-
-.contactpage {
-    height: 100%;
-}
 
     .contact-title {
         margin-top: 5px;
@@ -658,8 +564,16 @@ body {
 
 @media screen and (min-width: 769px) and (max-width: 829px) {
 
-     /* projects page only */
-     .projectspage {
+    
+    /* -------- home page ------------- */
+    .homepage-name {
+        width: 400px;
+        margin-top: 300px;
+        font-size: 60px;
+    }
+
+     /* -------- project page ------------- */
+    .projectspage {
         height: 100%;
     }
     
@@ -676,7 +590,7 @@ body {
     .projects-line-b {
         display: inline-block;
         margin-left: 50px;
-         margin-right: 50px;
+        margin-right: 50px;
     }
 
     .projects-container {
@@ -691,50 +605,7 @@ body {
         margin-top: 40px;
     }
 
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-
-    #aside { display: none; }
-
-    /* ------------- education page ----------- */
-
-    .educationpage {
-        height: 110%;
-    }
-    
-    .education-title {
-        font-size: 70px;
-     }
-    
-    .education-wrapper {
-        margin-top: 12px;
-    }
-
-    .education-college {
-        padding: 8px;
-        font-size: 24px;
-        font-weight: bold;
-        text-align: center;
-    }
-
-    .education-degree {
-        font-size: 20px;
-        font-weight: bold;
-        text-align: center;
-        padding: 8px;
-    }
-
-    .education-date {
-        font-size: 18px;
-        font-weight: bold;
-        text-align: center;
-        padding: 8px;
-    }
-
-
-    /* ------------ skillspage ---------------- */
-
+    /* -------- skills page ------------- */
     .skillspage {
         height: 100%;
     }
@@ -764,31 +635,20 @@ body {
         margin: 10px;
     }
 
-     /* ------------- contact page ------------- */
-
-    .contact-title {
-        margin-top: 25px;
-        font-size: 70px;
-    }
-
-    .contact {
-        width: 120px;
-        height: 120px;
-        margin: 20px auto;
-    }
-
-    .contact-sameline {
-        display: inline-block;
-        text-align: center;
-        margin: 0 100px;
-    }
-
 }
-
 
 @media screen and (min-width: 830px) and (max-width: 1024px) {
 
-     /* projects page only */
+    #aside { display: none; }
+
+    /* -------- home page ------------- */
+    .homepage-name {
+        width: 400px;
+        margin-top: 300px;
+        font-size: 60px;
+    }
+
+     /* -------- project page ------------- */
      .projectspage {
         height: 100%;
     }
@@ -855,15 +715,103 @@ body {
         margin-top: 60px;
         font-size: 20px;
     }
-   
+
+    /* -------- education page ------------- */
+    .educationpage {
+        height: 110%;
+    }
+    
+    .education-title {
+        font-size: 70px;
+     }
+    
+    .education-wrapper {
+        margin-top: 12px;
+    }
+
+    .education-college {
+        padding: 8px;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .education-degree {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 8px;
+    }
+
+    .education-date {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        padding: 8px;
+    }
+
+    /* -------- skills page ------------- */
+    .skillspage {
+        height: 100%;
+    }
+
+    .skills-title {
+        margin-top: 25px;
+        font-size: 70px;
+        font-weight: bolder;
+    }
+
+    .skills-area {
+        margin-top: 30px;
+        padding-bottom: 120px;
+    }
+
+    .skill-row,
+    .skill-row-2 {
+        margin: 15px;
+        text-align: center;
+    }
+
+    .skill-image-area {
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        text-align:center;
+        margin: 10px;
+    }
+
+    /* -------- contact page ------------- */
+    .contact-title {
+        margin-top: 25px;
+        font-size: 70px;
+    }
+
+    .contact {
+        width: 120px;
+        height: 120px;
+        margin: 20px auto;
+    }
+
+    .contact-sameline {
+        display: inline-block;
+        text-align: center;
+        margin: 0 100px;
+    }
 
 }
 
 
+
 @media screen and (min-width: 1025px) and (max-width: 1400px) {
 
-      /* projects page only */
-      .projectspage {
+    /* -------- home page ------------- */
+    .homepage-name {
+        width: 500px;
+        font-size: 100px;
+    }
+   
+    /* -------- project page ------------- */
+    .projectspage {
         height: 110%;
     }
     
@@ -875,7 +823,6 @@ body {
     .projects-bottom {
         display: block;
     }
-
     
     .projects-line-a,
     .projects-line-b {
@@ -925,13 +872,69 @@ body {
         font-size: 20px;
     }
 
+    /* -------- skills page ------------- */
+    .skillspage {
+        height: 100%;
+    }
+
+    .skills-title {
+        margin-top: 25px;
+        font-size: 70px;
+        font-weight: bolder;
+    }
+
+    .skills-area {
+        margin-top: 30px;
+        padding-bottom: 120px;
+    }
+
+    .skill-row,
+    .skill-row-2 {
+        margin: 15px;
+        text-align: center;
+    }
+
+    .skill-image-area {
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        text-align:center;
+        margin: 10px;
+    }
+
+    /* -------- contact page ------------- */
+    .contact-title {
+        margin-top: 25px;
+        font-size: 70px;
+    }
+
+    .contact {
+        width: 120px;
+        height: 120px;
+        margin: 20px auto;
+    }
+
+    .contact-sameline {
+        display: inline-block;
+        text-align: center;
+        margin: 0 100px;
+    }
+
 }
 
 
 @media screen and (min-width: 1401px) and (max-width: 1700px) {
 
-      /* projects page only */
-      .projectspage {
+    #aside { display: inline; }
+
+    /* -------- home page ------------- */
+    .homepage-name {
+        width: 500px;
+        font-size: 100px;
+    }
+     
+    /* -------- project page ------------- */
+    .projectspage {
         height: 110%;
     }
     
@@ -995,43 +998,96 @@ body {
         font-size: 20px;
     }
 
+    /* -------- skills page ------------- */
+    .skillspage {
+        height: 100%;
+    }
+
+    .skills-title {
+        margin-top: 25px;
+        font-size: 70px;
+        font-weight: bolder;
+    }
+
+    .skills-area {
+        margin-top: 30px;
+        padding-bottom: 120px;
+    }
+
+    .skill-row,
+    .skill-row-2 {
+        margin: 45px;
+        text-align: center;
+    }
+
+    .skill-image-area {
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        text-align:center;
+        margin: 20px;
+    }
+
+    /* Contact Page  */
+    .contact-title {
+        margin-top: 25px;
+        font-size: 70px;
+    }
+
+    .contact {
+        width: 120px;
+        height: 120px;
+        margin: 20px auto;
+    }
+
+    .contact-sameline {
+        display: inline-block;
+        text-align: center;
+        margin: 0 100px;
+    }
+
 }
 
 @media screen and (min-width: 1701px) and (max-width: 2200px) {
 
-     /* projects page only */
+    #aside { display: inline; }
+    
+    /* -------- home page ------------- */
+    .homepage-name {
+        width: 500px;
+        font-size: 100px;
+    }
+
+    /* -------- project page ------------- */
      .projectspage {
         height: 100%;
     }
     
     .projects-title {
-        color: #00bc8c;
-        font-weight: bolder;
-        font-size: 70px;
+        font-size: 90px;
     }
-
+    
     .projects-top,
     .projects-bottom {
-       display: inline-block;
-       margin-top: 130px;
+        display: block;
     }
 
     
     .projects-line-a,
     .projects-line-b {
         display: inline-block;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     .projects-container {
         text-align: center;
+        margin-top: 10px;
     }
 
     .project-container {
         height: 350px;
         width: 325px;
-        text-align: center;
     }
 
     .project {
@@ -1067,55 +1123,7 @@ body {
         font-size: 20px;
     }
 
-}
-
-
-@media screen and (min-width: 1025px) and (max-width: 2200px) {
-
-    .navbartop { display: none; }  
-
-    /* home page  */
-
-    .homepage-name {
-        width: 500px;
-        font-size: 100px;
-    }
-
-    /* projects page  */
-
-     
-    .projects-title {
-        font-size: 90px;
-    }
-    
-    .projects-container {
-        text-align: center;
-        margin-top: 15px;
-    }
-
-    .visit-site {
-        margin-top: 30px;
-    }
-
-    .visit-site-link {
-        font-size: 22px;
-    }
-
-    .github {
-        margin-top: 45px;
-    }
-
-    .github-link {
-        font-size: 22px;
-    }
-
-    .tech-info {
-        margin-top: 60px;
-        font-size: 20px;
-    }
-
-   /* ------------- education page ----------- */
-
+    /* -------- education page ------------- */
     .educationpage {
         height: 110%;
     }
@@ -1134,7 +1142,6 @@ body {
     }
 
     .education-college {
-
         padding: 6px;
         font-size: 24px;
         font-weight: bold;
@@ -1155,9 +1162,7 @@ body {
         padding: 3px;
     }
 
-
-/* ------------ skillspage ---------------- */
-
+    /* -------- skills page ------------- */
     .skillspage {
         height: 100%;
     }
@@ -1170,44 +1175,44 @@ body {
 
     .skills-area {
         margin-top: 30px;
-        padding-bottom: 200px;
+        padding-bottom: 120px;
     }
 
     .skill-row,
     .skill-row-2 {
-        margin: 35px;
-        margin-top: 20px;
+        margin: 65px;
         text-align: center;
     }
 
     .skill-image-area {
         display: inline-block;
-        height: 120px;
-        width: 120px;
+        height: 100px;
+        width: 100px;
         text-align:center;
-        margin: 15px;
+        margin: 30px;
     }
 
- /* ------------- contact page ------------- */
-
+    /* -------- contact page ------------- */
     .contact-title {
         margin-top: 25px;
         font-size: 90px;
+        margin-bottom: 80px;
     }
 
     .contact {
-        width: 130px;
-        height: 130px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 75px;
+        width: 120px;
+        height: 120px;
+        margin: 20px auto;
     }
 
     .contact-sameline {
         display: inline-block;
         text-align: center;
-        margin: 0 150px;
+        margin: 0 100px;
     }
 
 }
+
+
+
 

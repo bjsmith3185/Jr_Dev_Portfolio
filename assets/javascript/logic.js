@@ -6,11 +6,13 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 window.onload = function () {
     hideTopBtn()
     hideNavName()
+
 };
 
 window.onscroll = function () {
     showTopButton()
     scrollNavName()
+  
 };
 
 
@@ -23,7 +25,7 @@ function hideNavName() {
 }
 
 function showTopButton() {
-    if (document.body.scrollTop > 2700 || document.documentElement.scrollTop > 2700) {
+    if (document.body.scrollTop > 850 || document.documentElement.scrollTop > 850) {
         document.getElementById("myBtn").style.display = "block";
     } else {
         document.getElementById("myBtn").style.display = "none";
